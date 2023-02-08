@@ -163,7 +163,7 @@ No.	Mode	Map	Victory/Defeat	Time	E	A	D	Damage	Health	Mitigation
 						6	3	4	2277	2147	103
 						5	3	7	2727	1370	89
 						-	-	-	-	-	-
-16	Push	Esperanca	-	10:00	
+16	Push	Esperanca	Defeat	10:00	
 						6	6	8	1953	3673	2282
 						10	0	6	3914	17	2535
 						10	2	9	2897	1663	1057
