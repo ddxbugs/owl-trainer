@@ -39,3 +39,13 @@ control_no,map_name,comp,x,final_score,game_mode,game_length,elimination,assist,
 4,colosseo,yes,defeat,1-0,push,4:05,0,0,2,535,2638,0
 4,colosseo,yes,defeat,1-0,push,4:05,0,0,2,1131,334,0
 4,colosseo,yes,defeat,1-0,push,4:05,0,0,4,1716,48,1318
+5,lijiang_tower,yes,defeat,1-2,control,12:07,16,5,4,4413,3179,1561
+5,lijiang_tower,yes,defeat,1-2,control,12:07,12,11,6,5217,2763,2097
+5,lijiang_tower,yes,defeat,1-2,control,12:07,18,2,7,8465,2301,853
+5,lijiang_tower,yes,defeat,1-2,control,12:07,19,0,12,6383,1297,2616
+5,lijiang_tower,yes,defeat,1-2,control,12:07,11,4,10,3429,3226,3752
+5,lijiang_tower,yes,victory,1-2,control,12:07,20,13,5,6177,4380,1956
+5,lijiang_tower,yes,victory,1-2,control,12:07,26,6,5,5817,91,2656
+5,lijiang_tower,yes,victory,1-2,control,12:07,19,12,11,7011,883,2740
+5,lijiang_tower,yes,victory,1-2,control,12:07,13,12,6,3867,5714,1250
+5,lijiang_tower,yes,victory,1-2,control,12:07,26,5,7,6409,1370,669
