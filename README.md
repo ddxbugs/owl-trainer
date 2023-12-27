@@ -94,13 +94,9 @@ Guidelines for how others can contribute to your project. This might include:
 ## License
 
 This project is currently unlicensed. All rights reserved. Please feel free to contact for permissions to use, modify, or distribute the code in this repository until a license is designated.
-```
 
 ## Contact
 
 Provide contact information for further inquiries or collaboration.
 
 - Email: [ddxbugs@proton.me](mailto:ddxbugs@proton.me)
----
-
-This template is designed to ensure that anyone who comes across your project will have a clear understanding of what it entails and how they can replicate or build upon your research. Feel free to adjust it according to the specifics of your project and research domain.
