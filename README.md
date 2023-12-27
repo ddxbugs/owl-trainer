@@ -1,6 +1,7 @@
 # owl-trainer
 
-![28e831a59a8555cc8bea429ba2dba720](https://user-images.githubusercontent.com/63527442/205575870-8f68f194-9c8d-4dfe-ac31-db369adcaf51.jpg =250x)(https://www.overbuff.com/)
+<img src="https://user-images.githubusercontent.com/63527442/205575870-8f68f194-9c8d-4dfe-ac31-db369adcaf51.jpg" width="250">
+
 ---
 
 # Project Title: Overwatch Exploratory Data Analysis in R
