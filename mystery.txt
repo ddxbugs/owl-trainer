@@ -1,176 +1,261 @@
-No.	Mode	Map	Victory/Defeat	Time	E	A	D	Damage	Health	Mitigation		
-1	Payload	Shambali	Defeat	5:58								
-						10	5	1	5131	1943	6569	
-						9	3	3	3197	5455	254	
-						8	1	1	5103	61	79	
-						9	1	4	2596	716	416	
-						11	5	2	7316	1922	890	
-						4	3	5	2483	3019	261	
-						4	3	2	4095	3922	2393	
-						8	2	2	4096	5317	0	
-												
-												
-2	Push	Colosseo	Victory	10:53								
-						29	5	9	9345	1465	1863	
-						10	7	10	3198	2553	740	
-						21	2	9	3912	662	2115	
-						20	4	8	4348	1484	403	
-						24	9	3	4709	1859	0	
-						18	2	9	6472	2268	3652	
-						17	4	11	4085	2265	1142	
-						12	2	13	3016	429	768	
-						14	2	6	4272	854	2976	
-						17	7	10	5722	1036	1298	
-3	Payload	Junkertown	Victory	5:24								
-						10	2	1	2488	0	2749	
-						12	4	3	3853	286	448	
-						16	4	2	3105	391	598	
-						14	3	1	2803	631	737	
-						14	3	1	3600	4836	682	
-						4	2	4	4336	902	5503	
-						1	1	5	2409	925	1135	
-						2	2	6	1913	1047	1158	
-						4	1	7	2671	1530	735	
-						4	2	3	2199	1829	724	
-4	Hybrid	Paraiso	Victory	9:22								
-						17	7	7	4117	1944	3401	
-						19	2	4	8129	164	537	
-						18	4	6	5382	221	648	
-						17	10	4	4367	3483	48	
-						14	13	8	4939	3897	2051	
-						14	4	6	4347	1749	3393	
-						4	1	10	2383	921	2219	
-						13	11	6	5779	4854	898	
-						20	5	7	4982	1921	1462	
-						15	1	7	3707	724	4328	
-5	Hybrid	King's Row	Victory	8:27								
-						19	6	2	7343	0	2900	
-						15	1	5	2634	565	231	
-						17	13	2	2238	5479	350	
-						22	11	3	4430	2823	855	
-						23	9	2	5460	2919	0	
-						2	0	10	2195	376	687	
-						4	1	11	2304	404	1516	
-						11	0	4	5622	0	14	
-						8	2	5	4683	2529	789	
-						3	3	8	2755	905	3012	
-6	Control	Lijiang	Victory	9:19								
-						29	12	5	9043	4817	2519	
-						34	27	7	8751	3229	4323	
-						22	16	8	6256	5884	2620	
-												
-												
-						21	13	9	6412	5374	2262	
-						13	0	8	4130	225	2458	
-						25	5	13	8588	2725	6859	
-						21	11	9	8955	6231	2381	
-						21	12	13	9477	3339	2675	
-7	Control	Nepal	Victory	12:34								
-						23	7	4	5307	3453	562	
-						31	4	9	7992	103	2184	
-						26	7	5	6519	4143	4944	
-						20	7	9	5066	2262	2406	
-						20	9	7	5597	2726	4464	
-						5	8	11	3759	2408	1787	
-						21	3	6	7877	942	2575	
-						15	3	12	4401	792	4213	
-						24	8	12	9020	1285	3405	
-						14	11	9	3919	3369	1668	
-8	Push	New Queen	Defeat	7:05								
-						6	3	6	2625	3331	164	
-						8	5	4	5852	4389	1284	
-						10	3	8	3803	509	1534	
-						7	4	9	4130	790	1332	
-						7	6	6	3737	3253	898	
-						19	3	1	7121	0	2079	
-						14	5	3	3791	2264	1130	
-						20	3	3	7414	9	2074	
-						3	18	5	1876	7655	200	
-						18	5	3	4693	0	6188	
-9	Control		Busan	Defeat	9:27	
-						15	3	6	5035	965	1699
-						16	4	5	4488	0	5005
-						13	6	3	6267	430	3498	
-						17	0	5	7434	756	251
-						4	5	9	2837	3462	830
-						12	1	4	4827	1105	4418
-						10	4	2	3535	1859	674
-						9	2	8	3319	1925	41
-						9	6	10	4669	1764	2100
-						12	5	7	4922	1374	2860
-10	Control		Busan	Victory	10:12	
-						24	7	2	7528	0	1295
-						21	2	5	7163	0	4378
-						17	12	6	3579	3068	1591
-						15	0	9	5560	1218	1346
-						18	9	6	4159	3199	674
-						3	1	2	793	874	112
-						13	3	8	5323	1442	3327
-						6	2	2	1693	422	450
-						2	1	0	145	724	0
-
-11	Payload		Dorado	Victory	8:00
-						7	0	7	2877	1415	334
-						12	0	3	4117	0	452
-						5	3	9	1860	959	78
-						5	0	9	2713	193	182
-						
-						14	7	2	3196	5034	503
-						14	0	2	3462	0	41
-						11	0	5	3176	0	815
-						14	3	4	2699	2983	0
-						14	1	5	3754	1272	4161
-12	Payload 	Shambali Defeat 5:58
-						3	1	5	3202	89	1097
-						2	0	2	2675	0	8518
-						2	1	4	3644	4192	1071
-						3	1	6	2635	1249	446
-						3	2	5	2412	4948	869
-						11	4	3	4084	1818	839
-						11	0	2	4701	0	0
-						13	1	1	4082	290	10246
-						10	7	0	3879	186	1110
-						7	10	1	1902	7251	944
-13	Push	New Queen St	Victory	11:09	
-						17	6	6	5085	3372	967
-						29	3	3	8390	0	2692
-						21	6	9	5597	3076	1394
-						19	6	13	5985	660	2994
-						14	10	7	4639	3487	1671
-						19	0	5	4901	330	2882
-						11	0	8	3187	277	188
-						15	7	11	5310	2304	3165
-						5	6	7	3074	3039	327
-14	Payload	 Circuit Royal	Victory	4:40
-						14	3	0	3869	0	2310
-						11	4	1	1987	100	678
-						9	3	0	2211	97	1380
-						9	17	0	968	6003	0
-						14	9	0	4769	4268	0
-						0	0	5	2756	477	736
-						1	0	3	4238	838	398
-						-	-	-	-	-	-
-						-	-	-	-	-	-
-						-	-	-	-	-	-
-15	Hybrid	Midtown		Victory	5:46
-						7	6	5	1953	1910	2202
-						17	2	2	5181	0	5212
-						13	0	1	3904	0	118
-						8	6	2	3388	1553	899
-						10	3	3	2149	3498	921
-						7	0	5	2747	0	4613
-						7	1	3	4038	1548	181
-						6	3	4	2277	2147	103
-						5	3	7	2727	1370	89
-						-	-	-	-	-	-
-16	Push	Esperanca	Defeat	10:00	
-						6	6	8	1953	3673	2282
-						10	0	6	3914	17	2535
-						10	2	9	2897	1663	1057
-						17	6	7	6310	2925	1354
-						-	-	-	-	-	-
-						24	3	3	7498	0	1973
-						20	6	4	5335	729	1501
-						14	1	9	5602	200	716
-						14	11	6	5006	5281	1400
-						-	-	-	-	-	-
+control_no,map_name,comp,result,final_score,game_mode,game_length,team,elimination,assist,death,damage,heal,mitigation
+1,eichenwalde,no,victory,0-2,hybrid,10:00,A,10,11,3,3473,5102,2261
+1,eichenwalde,no,victory,0-2,hybrid,10:00,A,19,4,3,6996,31,2645
+1,eichenwalde,no,victory,0-2,hybrid,10:00,A,23,1,6,7869,409,957
+1,eichenwalde,no,victory,0-2,hybrid,10:00,A,18,8,8,6544,1290,1512
+1,eichenwalde,no,victory,0-2,hybrid,10:00,A,10,4,2,4575,3292,0
+1,eichenwalde,no,victory,0-2,hybrid,10:00,B,12,5,9,5594,3209,1328
+1,eichenwalde,no,victory,0-2,hybrid,10:00,B,11,4,7,3355,878,3573
+1,eichenwalde,no,victory,0-2,hybrid,10:00,B,7,1,8,2960,2548,2767
+1,eichenwalde,no,victory,0-2,hybrid,10:00,B,16,1,7,6451,3647,3938
+1,eichenwalde,no,victory,0-2,hybrid,10:00,B,6,9,6,1622,2942,863
+2,antartic_peninsula,no,defeat,0-2,control,8:11,A,7,1,5,4629,869,1131
+2,antartic_peninsula,no,defeat,0-2,control,8:11,A,6,3,7,5499,325,2358
+2,antartic_peninsula,no,defeat,0-2,control,8:11,A,6,4,3,3120,1897,0
+2,antartic_peninsula,no,defeat,0-2,control,8:11,A,6,5,3,3159,4115,292
+2,antartic_peninsula,no,defeat,0-2,control,8:11,A,5,2,4,2641,4940,782
+2,antartic_peninsula,no,victory,0-2,control,8:11,B,15,6,4,4537,981,3119
+2,antartic_peninsula,no,victory,0-2,control,8:11,B,19,11,0,5050,3964,2155
+2,antartic_peninsula,no,victory,0-2,control,8:11,B,17,6,1,5573,2860,3809
+2,antartic_peninsula,no,victory,0-2,control,8:11,B,13,11,3,4813,2329,1106
+2,antartic_peninsula,no,victory,0-2,control,8:11,B,8,13,2,1887,3404,0
+3,havana,yes,victory,3-2,escort,17:26,A,39,14,7,11638,7677,3944
+3,havana,yes,victory,3-2,escort,17:26,A,29,10,7,10721,3461,1518
+3,havana,yes,victory,3-2,escort,17:26,A,18,3,10,9915,811,4615
+3,havana,yes,victory,3-2,escort,17:26,A,23,11,8,6805,6630,1715
+3,havana,yes,victory,3-2,escort,17:26,A,28,14,5,7669,6830,3017
+3,havana,yes,defeat,3-2,escort,17:26,B,17,9,11,7825,8027,3426
+3,havana,yes,defeat,3-2,escort,17:26,B,26,2,10,11034,1398,2389
+3,havana,yes,defeat,3-2,escort,17:26,B,11,11,11,5738,4627,1351
+3,havana,yes,defeat,3-2,escort,17:26,B,16,13,11,7474,9712,2961
+3,havana,yes,defeat,3-2,escort,17:26,B,18,5,15,7866,2981,2611
+4,suravasa,no,defeat,2-3,flashpoint,16:03,A,32,5,6,12847,436,433
+4,suravasa,no,defeat,2-3,flashpoint,16:03,A,14,5,9,6869,6545,1353
+4,suravasa,no,defeat,2-3,flashpoint,16:03,A,19,12,11,7309,4757,1021
+4,suravasa,no,defeat,2-3,flashpoint,16:03,A,17,10,9,6988,2400,1199
+4,suravasa,no,defeat,2-3,flashpoint,16:03,A,8,28,8,5091,7150,2247
+4,suravasa,no,defeat,2-3,flashpoint,16:03,B,24,13,9,7626,4887,6148
+4,suravasa,no,defeat,2-3,flashpoint,16:03,B,27,8,11,10508,38,7464
+4,suravasa,no,defeat,2-3,flashpoint,16:03,B,23,6,6,7758,7246,413
+4,suravasa,no,defeat,2-3,flashpoint,16:03,B,16,12,9,5291,6897,6582
+4,suravasa,no,defeat,2-3,flashpoint,16:03,B,14,14,10,4696,4050,3002
+5,midtown,no,defeat,2-0,hybrid,10:22,A,22,4,6,5177,1415,1356
+5,midtown,no,defeat,2-0,hybrid,10:22,A,19,9,4,5847,4835,7203
+5,midtown,no,defeat,2-0,hybrid,10:22,A,20,1,7,5055,1423,102
+5,midtown,no,defeat,2-0,hybrid,10:22,A,28,2,4,10577,545,0
+5,midtown,no,defeat,2-0,hybrid,10:22,A,5,12,7,2466,7223,2501
+5,midtown,no,defeat,2-0,hybrid,10:22,B,15,7,10,6187,3955,1675
+5,midtown,no,defeat,2-0,hybrid,10:22,B,12,12,4,5318,2370,3111
+5,midtown,no,defeat,2-0,hybrid,10:22,B,19,11,5,7124,3853,7911
+5,midtown,no,defeat,2-0,hybrid,10:22,B,14,6,10,8384,1288,3536
+5,midtown,no,defeat,2-0,hybrid,10:22,B,6,13,6,3633,4806,1928
+6,antarctic_peninsula,no,defeat,0-2,control,8:11,A,7,1,5,4629,869,1131
+6,antarctic_peninsula,no,defeat,0-2,control,8:11,A,6,3,7,5499,325,2358
+6,antarctic_peninsula,no,defeat,0-2,control,8:11,A,6,4,3,3120,1897,0
+6,antarctic_peninsula,no,defeat,0-2,control,8:11,A,6,5,4,3159,4115,292
+6,antarctic_peninsula,no,defeat,0-2,control,8:11,A,5,2,4,2641,4940,782
+6,antarctic_peninsula,no,defeat,0-2,control,8:11,B,15,6,4,4537,981,3119
+6,antarctic_peninsula,no,defeat,0-2,control,8:11,B,19,11,0,5050,3964,2155
+6,antarctic_peninsula,no,defeat,0-2,control,8:11,B,17,6,1,5573,2860,3809
+6,antarctic_peninsula,no,defeat,0-2,control,8:11,B,13,11,3,4813,2329,1106
+6,antarctic_peninsula,no,defeat,0-2,control,8:11,B,8,13,2,1887,3404,0
+7,havana,no,victory,3-2,escort,17:26,A,39,14,7,11638,7677,3944
+7,havana,no,victory,3-2,escort,17:26,A,29,10,7,10721,3461,1518
+7,havana,no,victory,3-2,escort,17:26,A,18,3,10,9915,811,4615
+7,havana,no,victory,3-2,escort,17:26,A,23,11,8,6805,6630,1715
+7,havana,no,victory,3-2,escort,17:26,A,28,14,5,7669,6830,3017
+7,havana,no,victory,3-2,escort,17:26,B,17,9,11,7825,8027,3426
+7,havana,no,victory,3-2,escort,17:26,B,26,2,10,11034,1398,2389
+7,havana,no,victory,3-2,escort,17:26,B,11,11,11,5738,4627,1351
+7,havana,no,victory,3-2,escort,17:26,B,16,13,11,7474,9712,2961
+7,havana,no,victory,3-2,escort,17:26,B,18,5,15,7866,2981,2611
+8,colosseo,yes,victory,1-0,push,4:05,A,6,2,0,1016,0,3391
+8,colosseo,yes,victory,1-0,push,4:05,A,11,3,0,3637,0,0
+8,colosseo,yes,victory,1-0,push,4:05,A,7,0,0,2902,0,177
+8,colosseo,yes,victory,1-0,push,4:05,A,5,6,1,526,2948,0
+8,colosseo,yes,victory,1-0,push,4:05,A,4,6,0,925,3307,0
+8,colosseo,yes,victory,1-0,push,4:05,B,0,0,4,1577,850,600
+8,colosseo,yes,victory,1-0,push,4:05,B,1,0,3,2593,0,1906
+8,colosseo,yes,victory,1-0,push,4:05,B,0,0,2,535,2638,0
+8,colosseo,yes,victory,1-0,push,4:05,B,0,0,2,1131,334,0
+8,colosseo,yes,victory,1-0,push,4:05,B,0,0,4,1716,48,1318
+9,lijiang_tower,no,defeat,1-2,control,12:07,A,16,5,4,4413,3179,1561
+9,lijiang_tower,no,defeat,1-2,control,12:07,A,12,11,6,5217,2763,2097
+9,lijiang_tower,no,defeat,1-2,control,12:07,A,18,2,7,8465,2301,853
+9,lijiang_tower,no,defeat,1-2,control,12:07,A,19,0,12,6383,1297,2616
+9,lijiang_tower,no,defeat,1-2,control,12:07,A,11,4,10,3429,3226,3752
+9,lijiang_tower,no,defeat,1-2,control,12:07,B,20,13,5,6177,4380,1956
+9,lijiang_tower,no,defeat,1-2,control,12:07,B,26,6,5,5817,91,2656
+9,lijiang_tower,no,defeat,1-2,control,12:07,B,19,12,11,7011,883,2740
+9,lijiang_tower,no,defeat,1-2,control,12:07,B,13,12,6,3867,5714,1250
+9,lijiang_tower,no,defeat,1-2,control,12:07,B,26,5,7,6409,1370,669
+10,circuit_royal,no,victory,3-0,escort,5:16,A,21,2,1,4345,465,508
+10,circuit_royal,no,victory,3-0,escort,5:16,A,16,2,1,4655,128,291
+10,circuit_royal,no,victory,3-0,escort,5:16,A,21,2,1,4134,0,0
+10,circuit_royal,no,victory,3-0,escort,5:16,A,5,16,1,619,3340,1449
+10,circuit_royal,no,victory,3-0,escort,5:16,A,14,10,1,1648,3014,120
+10,circuit_royal,no,victory,3-0,escort,5:16,B,2,1,5,1278,821,467
+10,circuit_royal,no,victory,3-0,escort,5:16,B,2,0,7,1544,139,2760
+10,circuit_royal,no,victory,3-0,escort,5:16,B,2,0,6,2019,1949,18
+10,circuit_royal,no,victory,3-0,escort,5:16,B,2,0,6,2482,227,3714
+10,circuit_royal,no,victory,3-0,escort,5:16,B,5,1,8,2157,1781,1665
+11,junkertown,no,victory,3-0,escort,6:49,A,10,5,3,4853,929,1793
+11,junkertown,no,victory,3-0,escort,6:49,A,18,1,6,5340,650,851
+11,junkertown,no,victory,3-0,escort,6:49,A,13,0,3,4565,0,0
+11,junkertown,no,victory,3-0,escort,6:49,A,22,8,1,4821,4802,27
+11,junkertown,no,victory,3-0,escort,6:49,A,10,12,2,3133,3686,0
+11,junkertown,no,victory,3-0,escort,6:49,B,2,10,4,1386,4015,295
+11,junkertown,no,victory,3-0,escort,6:49,B,7,2,4,2863,3945,408
+11,junkertown,no,victory,3-0,escort,6:49,B,7,0,5,5386,1694,0
+11,junkertown,no,victory,3-0,escort,6:49,B,8,4,6,4337,2717,1594
+11,junkertown,no,victory,3-0,escort,6:49,B,7,2,6,3784,2095,1950
+12,new_queen_street,no,victory,1-0,push,10:17,A,25,4,3,6075,0,6164
+12,new_queen_street,no,victory,1-0,push,10:17,A,15,3,9,5887,3876,1407
+12,new_queen_street,no,victory,1-0,push,10:17,A,16,4,6,6132,501,2744
+12,new_queen_street,no,victory,1-0,push,10:17,A,15,7,7,4308,2591,2028
+12,new_queen_street,no,victory,1-0,push,10:17,A,20,12,5,6493,3760,0
+12,new_queen_street,no,victory,1-0,push,10:17,B,12,3,7,4035,971,2570
+12,new_queen_street,no,victory,1-0,push,10:17,B,11,8,9,4683,3484,3586
+12,new_queen_street,no,victory,1-0,push,10:17,B,10,4,10,4182,1204,3969
+12,new_queen_street,no,victory,1-0,push,10:17,B,10,2,6,5126,3582,2578
+12,new_queen_street,no,victory,1-0,push,10:17,B,19,4,6,6006,3605,4099
+13,colosseo,no,victory,1-0,push,10:17,A,20,1,2,4276,1567,1074
+13,colosseo,no,victory,1-0,push,10:17,A,18,6,4,3555,6335,1340
+13,colosseo,no,victory,1-0,push,10:17,A,25,6,2,7679,622,279
+13,colosseo,no,victory,1-0,push,10:17,A,15,1,5,4583,989,88
+13,colosseo,no,victory,1-0,push,10:17,A,15,5,4,3853,2087,565
+13,colosseo,no,victory,1-0,push,10:17,B,9,0,10,4044,2246,1513
+13,colosseo,no,victory,1-0,push,10:17,B,8,3,9,5918,2326,6063
+13,colosseo,no,victory,1-0,push,10:17,B,3,7,11,3513,2737,2845
+13,colosseo,no,victory,1-0,push,10:17,B,7,1,7,5667,294,1112
+13,colosseo,no,victory,1-0,push,10:17,B,7,1,8,2390,1530,253
+14,colosseo,no,defeat,0-1,push,10:00,A,15,6,8,4547,1594,1327
+14,colosseo,no,defeat,0-1,push,10:00,A,13,0,6,9534,0,3298
+14,colosseo,no,defeat,0-1,push,10:00,A,7,9,6,3602,5546,1465
+14,colosseo,no,defeat,0-1,push,10:00,A,14,7,3,6296,3493,0
+14,colosseo,no,defeat,0-1,push,10:00,A,12,5,6,4246,3974,1152
+14,colosseo,no,defeat,0-1,push,10:00,B,15,4,4,4402,1678,5432
+14,colosseo,no,defeat,0-1,push,10:00,B,11,6,7,4546,7006,4580
+14,colosseo,no,defeat,0-1,push,10:00,B,17,10,4,6557,5656,860
+14,colosseo,no,defeat,0-1,push,10:00,B,20,7,7,7954,1858,647
+14,colosseo,no,defeat,0-1,push,10:00,B,6,6,6,3427,2654,2309
+15,gibraltar,no,defeat,0-3,escort,10:19,A,15,7,10,6412,2375,2495
+15,gibraltar,no,defeat,0-3,escort,10:19,A,19,0,5,6728,799,762
+15,gibraltar,no,defeat,0-3,escort,10:19,A,11,4,6,2878,72,2736
+15,gibraltar,no,defeat,0-3,escort,10:19,A,13,3,7,3808,3526,2932
+15,gibraltar,no,defeat,0-3,escort,10:19,A,10,10,3,3253,7421,448
+15,gibraltar,no,defeat,0-3,escort,10:19,B,18,1,1,6196,550,277
+15,gibraltar,no,defeat,0-3,escort,10:19,B,13,11,6,4357,4312,4267
+15,gibraltar,no,defeat,0-3,escort,10:19,B,17,3,7,7099,1595,472
+15,gibraltar,no,defeat,0-3,escort,10:19,B,5,6,7,1138,1896,1082
+15,gibraltar,no,defeat,0-3,escort,10:19,B,19,1,5,5981,1284,660
+16,blizzard_world,no,victory,3-0,hybrid,10:08,A,21,8,4,8262,559,2601
+16,blizzard_world,no,victory,3-0,hybrid,10:08,A,22,3,1,7317,0,1983
+16,blizzard_world,no,victory,3-0,hybrid,10:08,A,19,6,5,6645,535,4060
+16,blizzard_world,no,victory,3-0,hybrid,10:08,A,16,12,4,3872,4718,558
+16,blizzard_world,no,victory,3-0,hybrid,10:08,A,9,15,2,3359,4047,1351
+16,blizzard_world,no,victory,3-0,hybrid,10:08,B,13,2,11,6917,274,2398
+16,blizzard_world,no,victory,3-0,hybrid,10:08,B,4,6,6,1607,6955,605
+16,blizzard_world,no,victory,3-0,hybrid,10:08,B,7,10,4,2645,5460,2702
+16,blizzard_world,no,victory,3-0,hybrid,10:08,B,9,0,6,5016,657,8663
+16,blizzard_world,no,victory,3-0,hybrid,10:08,B,9,2,8,6182,988,1738
+17,numbani,no,defeat,0-3,hybrid,8:25,A,9,1,6,5143,1260,4975
+17,numbani,no,defeat,0-3,hybrid,8:25,A,13,0,5,6900,737,414
+17,numbani,no,defeat,0-3,hybrid,8:25,A,12,3,6,4282,1017,1287
+17,numbani,no,defeat,0-3,hybrid,8:25,A,12,5,2,3462,4870,133
+17,numbani,no,defeat,0-3,hybrid,8:25,A,8,6,6,4148,2727,592
+17,numbani,no,defeat,0-3,hybrid,8:25,B,13,4,5,4011,1661,288
+17,numbani,no,defeat,0-3,hybrid,8:25,B,9,11,4,1568,7529,451
+17,numbani,no,defeat,0-3,hybrid,8:25,B,15,7,3,5259,1083,4541
+17,numbani,no,defeat,0-3,hybrid,8:25,B,14,1,4,5435,160,3131
+17,numbani,no,defeat,0-3,hybrid,8:25,B,9,6,5,2760,4173,289
+18,eichenwalde,no,defeat,0-3,hybrid,4:29,A,1,1,2,2092,466,0
+18,eichenwalde,no,defeat,0-3,hybrid,4:29,A,2,1,6,2685,735,836
+18,eichenwalde,no,defeat,0-3,hybrid,4:29,A,2,1,6,3425,69,1653
+18,eichenwalde,no,defeat,0-3,hybrid,4:29,A,0,0,6,2030,1735,1546
+18,eichenwalde,no,defeat,0-3,hybrid,4:29,1,2,4,2128,1177,650
+18,eichenwalde,no,defeat,0-3,hybrid,4:29,B,14,14,0,2549,5062,0
+18,eichenwalde,no,defeat,0-3,hybrid,4:29,B,11,4,1,1904,2617,695
+18,eichenwalde,no,defeat,0-3,hybrid,4:29,B,13,1,2,2285,174,0
+18,eichenwalde,no,defeat,0-3,hybrid,4:29,B,17,4,0,2489,0,1303
+18,eichenwalde,no,defeat,0-3,hybrid,4:29,B,14,4,0,2417,0,3063
+19,eichenwalde,no,defeat,0-3,hybrid,8:00,A,6,0,5,5057,13,3083
+19,eichenwalde,no,defeat,0-3,hybrid,8:00,A,5,1,10,2866,840,3611
+19,eichenwalde,no,defeat,0-3,hybrid,8:00,A,8,6,7,2112,3908,847
+19,eichenwalde,no,defeat,0-3,hybrid,8:00,A,7,6,5,4752,4767,1125
+19,eichenwalde,no,defeat,0-3,hybrid,8:00,A,11,4,5,3753,1010,2559
+19,eichenwalde,no,defeat,0-3,hybrid,8:00,B,11,10,3,4142,5434,127
+19,eichenwalde,no,defeat,0-3,hybrid,8:00,B,17,0,2,5958,564,32
+19,eichenwalde,no,defeat,0-3,hybrid,8:00,B,13,3,4,3536,2955,597
+19,eichenwalde,no,defeat,0-3,hybrid,8:00,B,19,7,2,5031,2719,851
+19,eichenwalde,no,defeat,0-3,hybrid,8:00,B,15,3,4,5630,1314,5083
+20,ilios,no,defeat,NA,control,7:44,A,8,2,6,3931,816,0
+20,ilios,no,defeat,NA,control,7:44,A,10,5,6,3722,2873,3489
+20,ilios,no,defeat,NA,control,7:44,A,6,7,6,2731,3608,0
+20,ilios,no,defeat,NA,control,7:44,A,3,3,4,1453,1851,1453
+20,ilios,no,defeat,NA,control,7:44,A,9,4,8,3643,592,1384
+20,ilios,no,defeat,NA,control,7:44,B,21,3,4,5581,263,1246
+20,ilios,no,defeat,NA,control,7:44,B,13,9,3,3151,3718,0
+20,ilios,no,defeat,NA,control,7:44,B,15,0,4,3946,0,666
+20,ilios,no,defeat,NA,control,7:44,B,15,12,4,5071,1129,2645
+20,ilios,no,defeat,NA,control,7:44,B,15,13,5,4221,2892,1626
+21,suravasa,no,defeat,NA,flashpoint,8:45,A,14,2,4,4874,368,7127
+21,suravasa,no,defeat,NA,flashpoint,8:45,A,4,3,7,1888,1386,1355
+21,suravasa,no,defeat,NA,flashpoint,8:45,A,4,1,9,2316,132,1766
+21,suravasa,no,defeat,NA,flashpoint,8:45,A,11,1,2,4798,142,336
+21,suravasa,no,defeat,NA,flashpoint,8:45,A,6,0,5,1847,767,255
+21,suravasa,no,defeat,NA,flashpoint,8:45,B,10,4,5,2916,2068,1862
+21,suravasa,no,defeat,NA,flashpoint,8:45,B,7,1,4,2898,2217,1280
+21,suravasa,no,defeat,NA,flashpoint,8:45,B,0,0,5,120,398,1154
+21,suravasa,no,defeat,NA,flashpoint,8:45,B,14,2,4,3246,2685,222
+21,suravasa,no,defeat,NA,flashpoint,8:45,B,15,3,3,5405,637,2119
+22,midtown,no,victory,0-3,hybrid,5:00,A,9,2,0,2193,0,10511
+22,midtown,no,victory,0-3,hybrid,5:00,A,14,2,0,5016,0,0
+22,midtown,no,victory,0-3,hybrid,5:00,A,5,3,3,1591,3253,132
+22,midtown,no,victory,0-3,hybrid,5:00,A,8,6,1,2101,3428,280
+22,midtown,no,victory,0-3,hybrid,5:00,A,12,7,0,4556,197,1148
+22,midtown,no,victory,0-3,hybrid,5:00,B,1,0,6,1946,200,2909
+22,midtown,no,victory,0-3,hybrid,5:00,B,1,0,4,1154,2852,15
+22,midtown,no,victory,0-3,hybrid,5:00,B,1,1,1,1832,937,2726
+22,midtown,no,victory,0-3,hybrid,5:00,B,3,0,4,1423,1664,2367
+22,midtown,no,victory,0-3,hybrid,5:00,B,3,0,5,2211,892,575
+23,shambali_monastery,no,victory,2-1,payload,9:02,A,14,0,3,3919,0,15177
+23,shambali_monastery,no,victory,2-1,payload,9:02,A,5,13,5,2460,6305,3055
+23,shambali_monastery,no,victory,2-1,payload,9:02,A,6,10,5,2716,5034,392
+23,shambali_monastery,no,victory,2-1,payload,9:02,A,12,8,6,4628,1731,2225
+23,shambali_monastery,no,victory,2-1,payload,9:02,A,14,0,3,8257,0,3168
+23,shambali_monastery,no,victory,2-1,payload,9:02,B,0,0,1,420,0,353
+23,shambali_monastery,no,victory,2-1,payload,9:02,B,10,0,3,6930,110,2471
+23,shambali_monastery,no,victory,2-1,payload,9:02,B,14,1,4,5499,478,529
+23,shambali_monastery,no,victory,2-1,payload,9:02,B,4,4,5,1427,3451,830
+23,shambali_monastery,no,victory,2-1,payload,9:02,B,14,0,5,6417,2146,5942
+24,havana,no,victory,3-0,payload,9:27,A,15,0,2,4292,229,1105
+24,havana,no,victory,3-0,payload,9:27,A,19,2,3,8984,0,4583
+24,havana,no,victory,3-0,payload,9:27,A,12,6,7,4730,2626,7098
+24,havana,no,victory,3-0,payload,9:27,A,15,9,8,4519,4714,2208
+24,havana,no,victory,3-0,payload,9:27,A,14,6,4,5358,3091,373
+24,havana,no,victory,3-0,payload,9:27,B,9,1,7,4374,0,6428
+24,havana,no,victory,3-0,payload,9:27,B,6,11,8,2633,4298,1863
+24,havana,no,victory,3-0,payload,9:27,B,8,4,6,5094,4233,1777
+24,havana,no,victory,3-0,payload,9:27,B,12,6,2,5652,9739,0
+24,havana,no,victory,3-0,payload,9:27,B,15,7,6,5144,0,5130
+25,circuit_royal,no,defeat,1-2,payload,15:46,A,14,3,8,9372,3238,4223
+25,circuit_royal,no,defeat,1-2,payload,15:46,A,11,1,9,11900,256,1404
+25,circuit_royal,no,defeat,1-2,payload,15:46,A,17,6,10,9135,3373,1370
+25,circuit_royal,no,defeat,1-2,payload,15:46,A,5,10,9,3835,10063,1728
+25,circuit_royal,no,defeat,1-2,payload,15:46,A,11,6,14,8231,2426,7856
+25,circuit_royal,no,defeat,1-2,payload,15:46,B,20,10,7,6204,6435,5278
+25,circuit_royal,no,defeat,1-2,payload,15:46,B,24,15,3,7270,3720,1601
+25,circuit_royal,no,defeat,1-2,payload,15:46,B,21,10,8,7462,7943,2152
+25,circuit_royal,no,defeat,1-2,payload,15:46,B,19,8,5,5952,5629,3231
+25,circuit_royal,no,defeat,1-2,payload,15:46,B,26,6,8,9690,1916,3199
+26,kings_row,no,victory,3-2,hybrid,16:25,A,31,6,9,14437,497,3555
+26,kings_row,no,victory,3-2,hybrid,16:25,A,17,38,5,4871,14616,1943
+26,kings_row,no,victory,3-2,hybrid,16:25,A,29,8,8,12355,5129,7374
+26,kings_row,no,victory,3-2,hybrid,16:25,A,37,12,6,14311,3880,2565
+26,kings_row,no,victory,3-2,hybrid,16:25,A,46,20,3,11908,6581,3110
+26,kings_row,no,victory,3-2,hybrid,16:25,B,11,8,16,10410,5031,2621
+26,kings_row,no,victory,3-2,hybrid,16:25,B,15,12,13,8649,8771,6216
+26,kings_row,no,victory,3-2,hybrid,16:25,B,19,3,10,9762,1679,4084
+26,kings_row,no,victory,3-2,hybrid,16:25,B,20,6,12,12733,856,6809
+26,kings_row,no,victory,3-2,hybrid,16:25,B,9,12,11,7413,16048,1630
