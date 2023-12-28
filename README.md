@@ -19,7 +19,7 @@ Provide a brief overview of your project's objectives, key findings, and conclus
   1. What is the relationship between skill level/rank and score?
   2. What is the relationship between result and score?
   3. What is the relationship between game_length and score?
-- **Hypothesis Testing**: Perform hypothesis testing.
+- **Hypothesis Testing**: Perform hypothesis testing. <br>
   I. H_NULL: Grand Master Elimination/Death Ratio = mu; H_ALT: Grand Master Elimination/Death Ratio < mu. <br>
   II. H_NULL: Grand Master Damage/Heal/Mitigation = mu; H_ALT: Grand Master Damage/Heal/Mitigation > mu.
 
