@@ -12,7 +12,16 @@ Provide a brief overview of your project's objectives, key findings, and conclus
 ## Introduction
 - **Background**: Offer context or background for the research question or problem.
 - **Purpose**: State the purpose of your exploratory data analysis.
+  A. Classify and predict hero class.
+  B. Classify and predict event outcome.
+  C. Classify and predict player score.
 - **Research Questions**: List the research questions or hypotheses you are exploring.
+  1. What is the relationship between skill level/rank and score?
+  2. What is the relationship between result and score?
+  3. What is the relationship between game_length and score?
+- **Hypothesis Testing**:
+  I. H_NULL: Grand Master Elimination/Death Ratio = mu; H_ALT: Grand Master Elimination/Death Ratio < mu.
+  II. H_NULL: Grand Master Damage/Heal/Mitigation = mu; H_ALT: Grand Master Damage/Heal/Mitigation > mu.
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)
