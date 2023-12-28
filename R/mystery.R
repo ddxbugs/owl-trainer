@@ -17,8 +17,50 @@
 # [Any additional notes, warnings, dependencies, or other relevant information]
 #========================================================
 
+# Print session information
 sessionInfo()
+
+# Set working directory to data
 setwd("data/")
 
-# Importing CSV file
+#========================================================
+# Import Data
+#========================================================
+
+# Read CSV file
 df <- read.csv("mystery.txt")
+
+# Print first 5 rows
+head(df, n = 5)
+
+# Print last 5 rows
+tail(df, n = 5)
+
+# Examine data frame type
+str(df)
+
+# Print summary of data frame
+summary(df)
+
+#========================================================
+# Tidy Data
+#========================================================
+
+library(naniar)
+# Check missing NA values
+gg_miss_var(df)
+# Count NA values
+sum(is.na(df))
+
+#========================================================
+# Transform Data
+#========================================================
+
+# TODO final_score : chr
+# TODO comp : factor
+# TODO result : factor
+# TODO game_mode : factor
+# TODO game_length : time
+# TODO team : factor
+
+library(tidyverse)
