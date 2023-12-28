@@ -48,6 +48,17 @@ Detail the structure and explanation of the data:
 |control_no|  | | |
 |map_name | | | |
 |comp | | | |
+|result | | | |
+|final_score  | | | |
+|game_mode  | | | |
+|game_length  | | | |
+|team | | | |
+|elimination  | | | |
+|assist | | | |
+|death | | | |
+|damage | | | |
+|heal | | | |
+|mitigation | | | |
 
 - **Session Info**:
 - **Variables**: Description of each variable in the dataset.
