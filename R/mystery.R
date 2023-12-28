@@ -16,3 +16,9 @@
 # Notes:
 # [Any additional notes, warnings, dependencies, or other relevant information]
 #========================================================
+
+sessionInfo()
+setwd("data/")
+
+# Importing CSV file
+df <- read.csv("mystery.txt")
