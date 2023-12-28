@@ -20,8 +20,8 @@ Provide a brief overview of your project's objectives, key findings, and conclus
   2. What is the relationship between result and score?
   3. What is the relationship between game_length and score?
 - **Hypothesis Testing**: Perform hypothesis testing.
-  1. H<sub>0</sub>: Grand Master Elimination/Death Ratio = $\mu; H<sub>A</sub>: Grand Master Elimination/Death Ratio > $\mu.
-  2. H<sub>0</sub>: Grand Master Damage/Heal/Mitigation = $\mu; H<sub>A</sub>: Grand Master Damage/Heal/Mitigation > $\mu.
+  1. H<sub>0</sub>: Grand Master Elimination/Death Ratio = $\mu$; H<sub>A</sub>: Grand Master Elimination/Death Ratio > $\mu$.
+  2. H<sub>0</sub>: Grand Master Damage/Heal/Mitigation = $\mu$; H<sub>A</sub>: Grand Master Damage/Heal/Mitigation > $\mu$.
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)
