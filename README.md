@@ -70,13 +70,18 @@ Detail the structure and explanation of the data:
 |mitigation | | | |
 
 - **Session Info**:
-- **Variables**: Description of each variable in the dataset.
+```plaintext
+R version 4.3.2 (2023-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 11 x64 (build 22631)
+```
+- **Variables**: Description of each variable in the data set.
 - **Formats or scales used**: Specify units of measurement, categorizations, or scales used.
   - **Data Types**:
-    - **game_mode**: hybrid, payload
-      - **final_score**: attacker-defender
+    - **game_mode**: hybrid, payload, control
+      - **final_score**: Attacker-Defender
     - **game_mode**: push
-      - **final_score**: 1 point
+      - **final_score**: Maximum 1 point
 - **Data Source**: Mention the original source of the data.
 
 - **Packages**:
@@ -85,7 +90,7 @@ Detail the structure and explanation of the data:
 ## Data Collection Method
 
 - **Data Source**: Explain where and how you collected the data.
-  - **Data Storage**: SSD
+  - **Data Storage**: Local SSD
   - **Data Format**: *.png
   - **Data Size**: 4.18 GB
 - **Data Collection Process**: Describe the steps or methodology used in data collection.
