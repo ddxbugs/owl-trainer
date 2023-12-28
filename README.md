@@ -43,6 +43,12 @@ Detailed instructions on how to set up the project. Include:
 
 Detail the structure and explanation of the data:
 
+|Variable |Description  |Type |Format/Units |
+|---------|-------------|-----|-------------|
+|control_no|  | | |
+|map_name | | | |
+|comp | | | |
+
 - **Session Info**:
 - **Variables**: Description of each variable in the dataset.
 - **Formats or scales used**: Specify units of measurement, categorizations, or scales used.
