@@ -4,10 +4,13 @@
 
 ---
 
-# Project Title: Overwatch Exploratory Data Analysis in R
+# Project: Overwatch Mystery Heroes Exploratory Data Analysis in R
 
 ## Executive Summary
-Provide a brief overview of your project's objectives, key findings, and conclusions. This section should be concise and give a clear picture of what the project is about and what it achieved.
+
+- **Objectives**:
+- **Key Findings**:
+- **Conclusions**:
 
 ## Introduction
 - **Background**: Offer context or background for the research question or problem.
