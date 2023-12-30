@@ -61,6 +61,16 @@ df[191:210,]
 sum(is.na(df$mitigation))
 which(is.na(df$mitigation))
 df[175,]
+# Replace missing NA mitigation value with new value
+df[175, "mitigation"] <- 1
+df[175,]
+
+# Filter NA missing final_score value, ranked matches
+
+df1 <- df %>%
+  filter(!is.na(df$final_score) & comp == "no")
+gg_miss_var(df1)
+
 
 #========================================================
 # Transform Data
@@ -74,4 +84,5 @@ df[175,]
 # TODO team : factor
 
 library(tidyverse)
+
 
