@@ -52,6 +52,14 @@ gg_miss_var(df)
 # Count NA values
 sum(is.na(df))
 
+# Find missing NA final_score values
+which(is.na(df$final_score))
+df[191:210,]
+
+# Find missing NA mitigation values
+which(is.na(df$mitigation))
+df[175,]
+
 #========================================================
 # Transform Data
 #========================================================
@@ -64,3 +72,4 @@ sum(is.na(df))
 # TODO team : factor
 
 library(tidyverse)
+
