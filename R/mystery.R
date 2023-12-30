@@ -47,8 +47,7 @@ summary(df)
 #========================================================
 
 library(naniar)
-# Check missing NA values
-gg_miss_var(df)
+
 # Count NA values
 sum(is.na(df))
 
@@ -61,16 +60,16 @@ df[191:210,]
 sum(is.na(df$mitigation))
 which(is.na(df$mitigation))
 df[175,]
-# Replace missing NA mitigation value with new value
-df[175, "mitigation"] <- 1
+# Replace missing NA mitigation value with new int value
+df[175, "mitigation"] <- as.integer(1)
 df[175,]
 
 # Filter NA missing final_score value, ranked matches
-
-df1 <- df %>%
+df <- df %>%
   filter(!is.na(df$final_score) & comp == "no")
-gg_miss_var(df1)
 
+# Check missing NA values
+gg_miss_var(df)
 
 #========================================================
 # Transform Data
@@ -84,5 +83,4 @@ gg_miss_var(df1)
 # TODO team : factor
 
 library(tidyverse)
-
-
+  
