@@ -64,10 +64,6 @@ df[175,]
 df[175, "mitigation"] <- as.integer(1)
 df[175,]
 
-# Filter NA missing final_score value, ranked matches
-df <- df %>%
-  filter(!is.na(df$final_score) & comp == "no")
-
 # Check missing NA values
 gg_miss_var(df)
 
@@ -77,10 +73,23 @@ gg_miss_var(df)
 
 # TODO final_score : chr
 # TODO comp : factor
-# TODO result : factor
-# TODO game_mode : factor
-# TODO game_length : time
+# TODO result : factor 
+# TODO game_mode : factor 
+# TODO game_length : time separate min sec  
 # TODO team : factor
 
 library(tidyverse)
-  
+library(GGally)
+
+# Filter ranked matches and summarize mean elimination, assist, death by control_no, team
+df1 <- df %>%
+  filter(comp == "no") %>%
+  mutate(control_no=as.factor(control_no), team=as.factor(team)) %>%
+  group_by(control_no, team) %>%
+  summarize(sumElim=sum(elimination), sumAsst=sum(assist), sumDeath=sum(death),
+            meanElim=mean(elimination), meanAsst=mean(assist), meanDeath=mean(death), .groups="keep") %>%
+  print(n = 100)
+
+#========================================================
+# Visualize Data
+#========================================================
