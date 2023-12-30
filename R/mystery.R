@@ -53,10 +53,12 @@ gg_miss_var(df)
 sum(is.na(df))
 
 # Find missing NA final_score values
+sum(is.na(df$final_score))
 which(is.na(df$final_score))
 df[191:210,]
 
 # Find missing NA mitigation values
+sum(is.na(df$mitigation))
 which(is.na(df$mitigation))
 df[175,]
 
