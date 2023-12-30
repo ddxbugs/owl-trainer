@@ -90,6 +90,8 @@ df1 <- df %>%
             meanElim=mean(elimination), meanAsst=mean(assist), meanDeath=mean(death), .groups="keep") %>%
   print(n = 100)
 
+ggpairs(df1, columns=6:8, ggplot2::aes(color=team))
+
 #========================================================
 # Visualize Data
 #========================================================
