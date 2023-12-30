@@ -14,8 +14,10 @@
 
 ## Introduction
 - **Background**:
+
   Overwatch 2 (2022) is one of the fastest-paced, competitive, team-based, player versus player first-person shooter (FPS) games developed by Blizzard Entertainment. Being a proficient player demands patience, practice, and a lot of emotional control. It requires quick thinking, teamwork, communication, and coordination to ascend the rank of Grand Master. Overwatch categorizes heroes into three main, commonly known classes: Damage, Tank and Support; teams must rely on their heroes' special strengths and abilities to work together and secure objectives each round. Player are awarded on a point-based system, being able track and compare their in-game performance with others and also view the post-game scoreboard in the match history. 
-  Mystery Heroes is one of many unranked matched game modes in Overwatch played over several unique maps each with different scoring objectives. However, in Mystery Heroes, players are randomly assigned heroes at the start each the round and subsequently after each death/respawn, preventing players from selecting their favorite or "main" characters and classes. This presents an interesting situation for a case study on the dynamics of the inter-game play mechanics, distributional anomalies, other interesting statistical observations that might be found, what it can tell us about the game itself, players' skill level, hero mastery and much, much more. 
+  
+  Mystery Heroes is one of many unranked matched game modes in Overwatch played over several unique maps each with different scoring objectives. However, in Mystery Heroes, players are randomly assigned heroes at the start each the round and subsequently after each death/respawn, preventing players from selecting their favorite or "main" characters and classes. This presents an interesting situation for a case study on the dynamics of the inter-game play mechanics, distributional anomalies, other interesting statistical observations that might be found, what it can tell us about the game itself, players' skill levels, hero mastery and much, much more. 
   
 - **Purpose**: 
   1. Classify and predict hero class.
