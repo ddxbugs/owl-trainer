@@ -173,7 +173,7 @@ control_no,map_name,comp,result,final_score,game_mode,game_length,team,eliminati
 18,eichenwalde,no,defeat,0-3,hybrid,4:29,A,2,1,6,2685,735,836
 18,eichenwalde,no,defeat,0-3,hybrid,4:29,A,2,1,6,3425,69,1653
 18,eichenwalde,no,defeat,0-3,hybrid,4:29,A,0,0,6,2030,1735,1546
-18,eichenwalde,no,defeat,0-3,hybrid,4:29,1,2,4,2128,1177,650
+18,eichenwalde,no,defeat,0-3,hybrid,4:29,A,2,4,2128,1177,650
 18,eichenwalde,no,defeat,0-3,hybrid,4:29,B,14,14,0,2549,5062,0
 18,eichenwalde,no,defeat,0-3,hybrid,4:29,B,11,4,1,1904,2617,695
 18,eichenwalde,no,defeat,0-3,hybrid,4:29,B,13,1,2,2285,174,0
