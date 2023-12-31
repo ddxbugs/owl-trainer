@@ -93,18 +93,19 @@ df1 <- df %>%
 
 ggpairs(df1, columns=6:8, ggplot2::aes(color=team))
 
-# TODO plot by result
-# Filter ranked matches and summarize mean elimination, assist, death by control_no, team
-df2 <- df %>%
-  filter(comp == "no", team == "A") %>%
-  group_by(control_no) %>%
-  mutate(control_no=as.factor(control_no), team=as.factor(team), result=as.factor(result)) %>%
-  summarize(sumElim=sum(elimination), sumAsst=sum(assist), sumDeath=sum(death),
-            meanElim=mean(elimination), meanAsst=mean(assist), meanDeath=mean(death)) %>%
-  print(n=100)
-
-ggpairs(df2, columns=6:8, ggplot2::aes(color=result))
-
 #========================================================
 # Visualize Data
+#========================================================
+# Histogram of sum EAD
+par(mfrow=c(3,1))
+hist(df1$sumElim)
+hist(df1$sumAsst)
+hist(df1$sumDeath)
+# Box plot of mean EAD
+par(mfrow=c(1,3))
+boxplot(df1$meanElim)
+boxplot(df1$meanAsst)
+boxplot(df1$meanDeath)
+#========================================================
+# Model Data
 #========================================================
