@@ -123,7 +123,7 @@ Instructions on how to run the analysis:
 - **Findings**: Summarize the key findings of the analysis.
 - **Visualizations**: Include plots or graphs with appropriate captions.
 
-  <img src="image/ggpairs_result.png" width=300px>
+  <img src="image/ggpairs_result.png" width=400px>
 
 - **Interpretation**: Discuss the implications or significance of the findings.
 
