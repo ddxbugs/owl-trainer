@@ -90,8 +90,9 @@ df1 <- df %>%
   summarize(sumElim=sum(elimination), sumAsst=sum(assist), sumDeath=sum(death),
             meanElim=mean(elimination), meanAsst=mean(assist), meanDeath=mean(death), .groups="keep") %>%
   print(n = 100)
+
 # Plot ggpairs sumEAD by result 
-ggpairs(df1, columns=6:8, ggplot2::aes(color=result))
+ggpairs(df1, columns=4:6, ggplot2::aes(color=result))
 
 #========================================================
 # Visualize Data
