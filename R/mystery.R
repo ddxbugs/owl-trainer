@@ -71,10 +71,10 @@ gg_miss_var(df)
 # Transform Data
 #========================================================
 
-# TODO final_score : chr
-# TODO game_length : time separate min sec  
+# TODO string replace '_' separate final_score : chr -> int
+# TODO game_length : time separate min sec lubridate::ms
 
-df$final_score <- factor(df$final_score)
+df$map_name <- factor(df$map_name)
 df$comp <- factor(df$comp)
 df$result <- factor(df$result)
 df$game_mode <- factor(df$game_mode)
@@ -86,26 +86,28 @@ library(GGally)
 # Filter ranked matches and summarize mean elimination, assist, death by control_no, team
 df1 <- df %>%
   filter(comp == "no") %>%
-  group_by(control_no, team) %>%
+  group_by(control_no, team, result) %>%
   summarize(sumElim=sum(elimination), sumAsst=sum(assist), sumDeath=sum(death),
             meanElim=mean(elimination), meanAsst=mean(assist), meanDeath=mean(death), .groups="keep") %>%
   print(n = 100)
-
-ggpairs(df1, columns=6:8, ggplot2::aes(color=team))
+# Plot ggpairs sumEAD by result 
+ggpairs(df1, columns=6:8, ggplot2::aes(color=result))
 
 #========================================================
 # Visualize Data
 #========================================================
 # Histogram of sum EAD
 par(mfrow=c(3,1))
-hist(df1$sumElim)
-hist(df1$sumAsst)
-hist(df1$sumDeath)
+hist(df1$sumElim, main="Histogram of Sum Elimination")
+hist(df1$sumAsst, main="Histogram of Sum Assist")
+hist(df1$sumDeath, main="Histogram of Sum Death")
 # Box plot of mean EAD
 par(mfrow=c(1,3))
-boxplot(df1$meanElim)
-boxplot(df1$meanAsst)
-boxplot(df1$meanDeath)
+boxplot(df1$meanElim, main="Box plot of Mean Elimination")
+boxplot(df1$meanAsst, main="Box plot of Mean Assist")
+boxplot(df1$meanDeath, main="Box plot of Mean Death")
+
+# TODO plot control_no sample means vs team sample means
 #========================================================
 # Model Data
 #========================================================
