@@ -72,11 +72,13 @@ gg_miss_var(df)
 #========================================================
 
 # TODO final_score : chr
-# TODO comp : factor
-# TODO result : factor 
-# TODO game_mode : factor 
 # TODO game_length : time separate min sec  
-# TODO team : factor
+
+df$final_score <- factor(df$final_score)
+df$comp <- factor(df$comp)
+df$result <- factor(df$result)
+df$game_mode <- factor(df$game_mode)
+df$team <- factor(df$team)
 
 library(tidyverse)
 library(GGally)
@@ -84,13 +86,24 @@ library(GGally)
 # Filter ranked matches and summarize mean elimination, assist, death by control_no, team
 df1 <- df %>%
   filter(comp == "no") %>%
-  mutate(control_no=as.factor(control_no), team=as.factor(team)) %>%
   group_by(control_no, team) %>%
   summarize(sumElim=sum(elimination), sumAsst=sum(assist), sumDeath=sum(death),
             meanElim=mean(elimination), meanAsst=mean(assist), meanDeath=mean(death), .groups="keep") %>%
   print(n = 100)
 
 ggpairs(df1, columns=6:8, ggplot2::aes(color=team))
+
+# TODO plot by result
+# Filter ranked matches and summarize mean elimination, assist, death by control_no, team
+df2 <- df %>%
+  filter(comp == "no", team == "A") %>%
+  group_by(control_no) %>%
+  mutate(control_no=as.factor(control_no), team=as.factor(team), result=as.factor(result)) %>%
+  summarize(sumElim=sum(elimination), sumAsst=sum(assist), sumDeath=sum(death),
+            meanElim=mean(elimination), meanAsst=mean(assist), meanDeath=mean(death)) %>%
+  print(n=100)
+
+ggpairs(df2, columns=6:8, ggplot2::aes(color=result))
 
 #========================================================
 # Visualize Data
