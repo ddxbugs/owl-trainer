@@ -3,12 +3,11 @@
 # Script Name: app.R
 # Author: ddxbugs
 # Date: 2023-12-26
-# Last Modified: 2023-12-26
+# Last Modified: 2024-01-02
 # Version: 1.0.0-alpha.1+001
 #========================================================
 # Description:
-# This script performs [brief description of what the script does, 
-# e.g., data cleaning, data visualization, statistical analysis, etc.]
+# This script performs data visualization for mystery data set.
 #========================================================
 # Usage:
 # [Instructions on how to use this script, if necessary]
@@ -32,7 +31,7 @@ library(shiny)
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Old Faithful Geyser Data"),
+    titlePanel("Overwatch Mystery Heroes Match Data"),
 
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
@@ -56,13 +55,13 @@ server <- function(input, output) {
 
     output$distPlot <- renderPlot({
         # generate bins based on input$bins from ui.R
-        x    <- faithful[, 2]
+        x    <- NA
         bins <- seq(min(x), max(x), length.out = input$bins + 1)
 
         # draw the histogram with the specified number of bins
         hist(x, breaks = bins, col = 'darkgray', border = 'white',
-             xlab = 'Waiting time to next eruption (in mins)',
-             main = 'Histogram of waiting times')
+             xlab = '',
+             main = '')
     })
 }
 
