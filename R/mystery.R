@@ -94,6 +94,8 @@ df1 <- df %>%
 # Plot ggpairs sumEAD by result 
 ggpairs(df1, columns=4:6, ggplot2::aes(color=result))
 
+# Plot ggpairs meanEAD by result
+ggpairs(df1, columns=7:9, ggplot2::aes(color=result))
 #========================================================
 # Visualize Data
 #========================================================
