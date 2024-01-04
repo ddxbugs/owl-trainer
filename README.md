@@ -123,7 +123,7 @@ Instructions on how to run the analysis:
 - **Findings**: Summarize the key findings of the analysis.
 - **Visualizations**: Include plots or graphs with appropriate captions.
 
-<p>Correlation plot of match sum elimination, assist, death with respect to win/loss result</p>
+<p>Correlation plot of total matches's sum elimination, assist, death with respect to win/loss result</p>
 
   <img src="image/ggpairs_result.png" width=400px>
 
