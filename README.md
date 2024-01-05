@@ -123,7 +123,7 @@ Instructions on how to run the analysis:
 - **Findings**: Summarize the key findings of the analysis.
 - **Visualizations**: Include plots or graphs with appropriate captions.
 
-<p>Correlation plot of match sampling distribution of the sample means elimination, assist, death with respect to result, n = 26</p>
+<p>Correlation plot of match sampling distribution of the sample means elimination, assist, death by control_no, team with respect to result, n = 26</p>
 
   <img src="image/ggpairs_mean_ead.png" width=400px>
   
