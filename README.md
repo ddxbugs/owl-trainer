@@ -6,6 +6,18 @@
 
 # Case Study: Overwatch Mystery Heroes Exploratory Data Analysis in R
 
+## Table of Contents
+- [Executive Summary](#executive-summary)
+- [Introduction](#introduction)
+- [Installation and Setup](#installation-and-setup)
+- [Codebook](#codebook)
+- [Data Collection Method](#data-collection-method)
+- [Usage](#usage)
+- [Results and Discussion](#results-and-discussion)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
 ## Executive Summary
 
 - **Objectives**:
@@ -30,18 +42,6 @@
 - **Hypothesis Testing**: Perform hypothesis testing.
   1. $H_{0}$: Grand Master Elimination/Death Ratio = $\mu$; $H_{A}$: Grand Master Elimination/Death Ratio > $\mu$.
   2. $H_{0}$: Grand Master Damage/Heal/Mitigation = $\mu$; $H_{A}$: Grand Master Damage/Heal/Mitigation > $\mu$.
-
-## Table of Contents
-- [Executive Summary](#executive-summary)
-- [Introduction](#introduction)
-- [Installation and Setup](#installation-and-setup)
-- [Codebook](#codebook)
-- [Data Collection Method](#data-collection-method)
-- [Usage](#usage)
-- [Results and Discussion](#results-and-discussion)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Installation and Setup
 
