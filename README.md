@@ -4,8 +4,7 @@
 
 ---
 
-# Case Study: 
-## Overwatch Mystery Heroes Exploratory Data Analysis in R
+# Case Study: ## Overwatch Mystery Heroes Exploratory Data Analysis in R
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)
