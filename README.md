@@ -123,9 +123,13 @@ Instructions on how to run the analysis:
 - **Findings**: Summarize the key findings of the analysis.
 - **Visualizations**: Include plots or graphs with appropriate captions.
 
-<p>Correlation plot of total matches's sum elimination, assist, death with respect to win/loss result</p>
+<p>Correlation plot of match sample distribution of sampling means elimination, assist, death with respect to result, n = 26</p>
 
-  <img src="image/ggpairs_result.png" width=400px>
+  <img src="image/ggpairs_mean_ead.png" width=400px>
+  
+<p>Correlation plot of match sample distribution of sample means damage, heal, mitigation by control_no, team with respect to result, n = 26</p>
+  
+  <img src="image/ggpairs_mean_dhm.png" width=400px>
 
 - **Interpretation**: Discuss the implications or significance of the findings.
 
