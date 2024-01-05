@@ -71,44 +71,60 @@ gg_miss_var(df)
 # Transform Data
 #========================================================
 
-# TODO string replace '_' separate final_score : chr -> int
 # TODO game_length : time separate min sec lubridate::ms
 
+library(tidyverse)
+library(GGally)
+
+# Factor variables
 df$map_name <- factor(df$map_name)
 df$comp <- factor(df$comp)
 df$result <- factor(df$result)
 df$game_mode <- factor(df$game_mode)
 df$team <- factor(df$team)
 
-library(tidyverse)
-library(GGally)
+# Separate and factor final_score as integer A, B
+df_score <- df %>%
+  separate(final_score, sep="-", into=c("A","B"), convert=TRUE, extra="drop")
 
-# Filter ranked matches and summarize mean elimination, assist, death by control_no, team
-df1 <- df %>%
+# Filter ranked matches and summarize max damage, heal, mitigation by control_no, team
+#df_score <- df_score %>%
+# filter(comp == "no") %>%
+# group_by(control_no, team, result, A, B) %>%
+# summarize(maxDmg=max(damage), maxHeal=max(heal), maxMit=max(mitigation), .groups="keep")
+
+# Filter ranked matches and summarize mean elimination, assist, death by control_no, team w/r/t match result
+df_mean_ead <- df %>%
   filter(comp == "no") %>%
   group_by(control_no, team, result) %>%
-  summarize(sumElim=sum(elimination), sumAsst=sum(assist), sumDeath=sum(death),
-            meanElim=mean(elimination), meanAsst=mean(assist), meanDeath=mean(death), .groups="keep") %>%
+  summarize(meanElim=mean(elimination), meanAsst=mean(assist), meanDeath=mean(death), .groups="keep") %>%
   print(n = 100)
 
-# Plot ggpairs sumEAD by result 
-ggpairs(df1, columns=4:6, ggplot2::aes(color=result))
+# Plot ggpairs meanEAD by match result
+ggpairs(df_mean_ead, columns=4:6, ggplot2::aes(color=result))
 
-# Plot ggpairs meanEAD by result
-ggpairs(df1, columns=7:9, ggplot2::aes(color=result))
+# Filter ranked matches and summarize mean damage, heal, mitigation by control_no, team w/r/t match result
+df_mean_dhm <- df %>%
+  filter(comp == "no") %>%
+  group_by(control_no, team, result) %>%
+  summarize(meanDmg=mean(damage), meanHeal=mean(heal), meanMit=mean(mitigation, .groups="keep")) %>%
+  print(n = 100)
+
+# Plot ggpairs meanDHM by match result
+ggpairs(df_mean_dhm, columns=4:6, ggplot2::aes(color=result))
 #========================================================
 # Visualize Data
 #========================================================
 # Histogram of sum EAD
 par(mfrow=c(3,1))
-hist(df1$sumElim, main="Histogram of Sum Elimination")
-hist(df1$sumAsst, main="Histogram of Sum Assist")
-hist(df1$sumDeath, main="Histogram of Sum Death")
+hist(df_sum$sumElim, main="Histogram of Sum Elimination")
+hist(df_sum$sumAsst, main="Histogram of Sum Assist")
+hist(df_sum$sumDeath, main="Histogram of Sum Death")
 # Box plot of mean EAD
 par(mfrow=c(1,3))
-boxplot(df1$meanElim, main="Box plot of Mean Elimination")
-boxplot(df1$meanAsst, main="Box plot of Mean Assist")
-boxplot(df1$meanDeath, main="Box plot of Mean Death")
+boxplot(df_mean$meanElim, main="Box plot of Mean Elimination")
+boxplot(df_mean$meanAsst, main="Box plot of Mean Assist")
+boxplot(df_mean$meanDeath, main="Box plot of Mean Death")
 
 # TODO plot control_no sample means vs team sample means
 #========================================================
