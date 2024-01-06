@@ -87,12 +87,6 @@ df$team <- factor(df$team)
 df_score <- df %>%
   separate(final_score, sep="-", into=c("A","B"), convert=TRUE, extra="drop")
 
-# Filter ranked matches and summarize max damage, heal, mitigation by control_no, team
-#df_score <- df_score %>%
-# filter(comp == "no") %>%
-# group_by(control_no, team, result, A, B) %>%
-# summarize(maxDmg=max(damage), maxHeal=max(heal), maxMit=max(mitigation), .groups="keep")
-
 # Filter ranked matches and summarize mean elimination, assist, death by control_no, team w/r/t match result
 df_mean_ead <- df %>%
   filter(comp == "no") %>%
@@ -112,6 +106,7 @@ df_mean_dhm <- df %>%
 
 # Plot ggpairs meanDHM by match result
 ggpairs(df_mean_dhm, columns=4:6, ggplot2::aes(color=result))
+
 #========================================================
 # Visualize Data
 #========================================================
@@ -130,3 +125,9 @@ boxplot(df_mean$meanDeath, main="Box plot of Mean Death")
 #========================================================
 # Model Data
 #========================================================
+
+# Hypothesis Test: 
+# Correlation test mean elimination and mean damage
+cor(df_mean_ead$meanElim, df_mean_dhm$meanDmg)
+# T-test 
+t.test(df_mean_ead$meanElim, df_mean_dhm$meanDmg)
