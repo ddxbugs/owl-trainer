@@ -121,6 +121,13 @@ boxplot(df_mean$meanElim, main="Box plot of Mean Elimination")
 boxplot(df_mean$meanAsst, main="Box plot of Mean Assist")
 boxplot(df_mean$meanDeath, main="Box plot of Mean Death")
 
+# TODO merge df_mean_ead df_mean_dhm
+df %>%
+  filter(comp == "no") %>%
+  select(elimination, damage, result) %>%
+  ggplot(aes(elimination, damage, color=result)) + 
+  geom_point(position="jitter") + geom_smooth()
+
 # TODO plot control_no sample means vs team sample means
 #========================================================
 # Model Data
