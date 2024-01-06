@@ -126,7 +126,8 @@ df %>%
   filter(comp == "no") %>%
   select(elimination, damage, result) %>%
   ggplot(aes(elimination, damage, color=result)) + 
-  geom_point(position="jitter") + geom_smooth()
+  geom_point(position="jitter") + geom_smooth() +
+  ggtitle(paste("Elimination~Damage by Match Result, n=", dim(df[df$comp=="no",])))
 
 # TODO plot control_no sample means vs team sample means
 #========================================================
