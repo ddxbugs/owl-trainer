@@ -68,7 +68,7 @@ Detail the structure and explanation of the data:
 |result |match result|factor|victory/defeat|
 |final_score  |match point|integer|A-B|
 |game_mode  | game mode |factor|push/control/hybrid|
-|game_length  |match duration|datetime|hh:ss|
+|game_length  |match duration|datetime|mm:ss|
 |team | 5 vs 5| factor| A or B|
 |elimination  | # eliminations | integer | 0-inf+  |
 |assist | # assists| integer | 0-inf+ |
