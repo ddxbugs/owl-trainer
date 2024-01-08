@@ -62,20 +62,20 @@ Detail the structure and explanation of the data:
 
 |Variable |Description  |Type |Format/Units |
 |---------|-------------|-----|-------------|
-|control_no|  | | |
-|map_name | | | |
-|comp | | | |
-|result | | | |
-|final_score  | | | |
-|game_mode  | | | |
-|game_length  | | | |
-|team | | | |
-|elimination  | | | |
-|assist | | | |
-|death | | | |
-|damage | | | |
-|heal | | | |
-|mitigation | | | |
+|control_no|match id|integer|1-inf+|
+|map_name |map name|character| |
+|comp |competitive|factor|yes/no|
+|result |match result|factor|victory/defeat|
+|final_score  |match score|integer|A-B|
+|game_mode  |game mode|factor|push/control/hybrid|
+|game_length  |game length|datetime|hh:ss|
+|team | 5v5| factor| A or B|
+|elimination  | | integer | 0-inf+  |
+|assist | | integer | 0-inf+ |
+|death | | integer | 0-inf+ |
+|damage | | integer | 0-inf+ |
+|heal | | integer | 0-inf+ |
+|mitigation | | integer | 0-inf+ |
 
 - **Session Info**:
 ```plaintext
