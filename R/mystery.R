@@ -116,9 +116,9 @@ ggpairs(df_mean_dhm, columns=4:6, ggplot2::aes(color=result))
 #========================================================
 # Histogram of mean EAD
 par(mfrow=c(3,1))
-hist(df_mean_ead$sumElim, main="Histogram of Sum Elimination")
-hist(df_mean_ead$sumAsst, main="Histogram of Sum Assist")
-hist(df_mean_ead$sumDeath, main="Histogram of Sum Death")
+hist(df_mean_ead$meanElim, main="Histogram of Sum Elimination")
+hist(df_mean_ead$meanAsst, main="Histogram of Sum Assist")
+hist(df_mean_ead$meanDeath, main="Histogram of Sum Death")
 # Box plot of mean EAD
 par(mfrow=c(1,3))
 boxplot(df_mean_ead$meanElim, main="Box plot of Mean Elimination")
