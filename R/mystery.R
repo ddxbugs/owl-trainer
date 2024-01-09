@@ -83,9 +83,13 @@ df$result <- factor(df$result)
 df$game_mode <- factor(df$game_mode)
 df$team <- factor(df$team)
 
-# Separate and factor final_score as integer A, B
-df_score <- df %>%
-  separate(final_score, sep="-", into=c("A","B"), convert=TRUE, extra="drop")
+# Separate and factor final_score as integer into A, B
+df <- df %>%
+  separate(final_score, sep="-", into=c("a_score","b_score"), convert=TRUE, extra="drop")
+
+# Separate and factor game_length as integer into min, sec
+df <- df %>%
+  separate(game_length, sep=":", into=c("min","sec"),convert=TRUE, extra="drop")
 
 # Filter ranked matches and summarize mean elimination, assist, death by control_no, team w/r/t match result
 df_mean_ead <- df %>%
@@ -110,16 +114,16 @@ ggpairs(df_mean_dhm, columns=4:6, ggplot2::aes(color=result))
 #========================================================
 # Visualize Data
 #========================================================
-# Histogram of sum EAD
+# Histogram of mean EAD
 par(mfrow=c(3,1))
-hist(df_sum$sumElim, main="Histogram of Sum Elimination")
-hist(df_sum$sumAsst, main="Histogram of Sum Assist")
-hist(df_sum$sumDeath, main="Histogram of Sum Death")
+hist(df_mean_ead$sumElim, main="Histogram of Sum Elimination")
+hist(df_mean_ead$sumAsst, main="Histogram of Sum Assist")
+hist(df_mean_ead$sumDeath, main="Histogram of Sum Death")
 # Box plot of mean EAD
 par(mfrow=c(1,3))
-boxplot(df_mean$meanElim, main="Box plot of Mean Elimination")
-boxplot(df_mean$meanAsst, main="Box plot of Mean Assist")
-boxplot(df_mean$meanDeath, main="Box plot of Mean Death")
+boxplot(df_mean_ead$meanElim, main="Box plot of Mean Elimination")
+boxplot(df_mean_ead$meanAsst, main="Box plot of Mean Assist")
+boxplot(df_mean_ead$meanDeath, main="Box plot of Mean Death")
 
 # TODO merge df_mean_ead df_mean_dhm
 df %>%
