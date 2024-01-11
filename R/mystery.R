@@ -3,7 +3,7 @@
 # Script Name: mystery.R
 # Author: ddxbugs
 # Date: 2023-12-26
-# Last Modified: 2024-01-09
+# Last Modified: 2024-01-10
 # Version: 1.0.0-alpha.1+001
 #========================================================
 # Description:
@@ -28,7 +28,7 @@ setwd("data/")
 #========================================================
 
 # Read CSV file
-df <- read.csv("mystery.txt")
+df <- read.csv("mystery.csv")
 
 # Print first 5 rows
 head(df, n = 5)
