@@ -3,7 +3,7 @@
 # Script Name: mystery.R
 # Author: ddxbugs
 # Date: 2023-12-26
-# Last Modified: 2023-12-26
+# Last Modified: 2024-01-09
 # Version: 1.0.0-alpha.1+001
 #========================================================
 # Description:
@@ -111,19 +111,27 @@ df_mean_dhm <- df %>%
 # Plot ggpairs meanDHM by match result
 ggpairs(df_mean_dhm, columns=4:6, ggplot2::aes(color=result))
 
+# Filter ranked matches and summarize sum elimination, assist, death by control_no, team w/r/t match result
+df_sum_ead <- df %>%
+  filter(comp == "no") %>%
+  group_by(control_no, team, result) %>%
+  summarize(teamElim=sum(elimination), teamAsst=sum(assist), teamDeath=sum(death), .groups="keep")
+
+df %>%
+  ggplot(aes(elimination, fill=result)) + geom_histogram(binwidth=2) + facet_grid(vars(result))
+df %>%
+  ggplot(aes(assist, fill=result)) + geom_histogram(binwidth=2) + facet_grid(vars(result))
+df %>%
+  ggplot(aes(death, fill=result)) + geom_histogram(binwidth=2) + facet_grid(vars(result))
 #========================================================
 # Visualize Data
 #========================================================
-# Histogram of mean EAD
-par(mfrow=c(3,1))
-hist(df_mean_ead$meanElim, main="Histogram of Sum Elimination")
-hist(df_mean_ead$meanAsst, main="Histogram of Sum Assist")
-hist(df_mean_ead$meanDeath, main="Histogram of Sum Death")
-# Box plot of mean EAD
-par(mfrow=c(1,3))
-boxplot(df_mean_ead$meanElim, main="Box plot of Mean Elimination")
-boxplot(df_mean_ead$meanAsst, main="Box plot of Mean Assist")
-boxplot(df_mean_ead$meanDeath, main="Box plot of Mean Death")
+# TODO Histogram of EAD
+# TODO Box plot of EAD
+# TODO Scatter plot of EAD
+# TODO Histogram of DHM
+# TODO Box plot of DHM
+# TODO Scatter plot of DHM
 
 # TODO merge df_mean_ead df_mean_dhm
 df %>%
@@ -135,7 +143,7 @@ df %>%
 
 # TODO plot control_no sample means vs team sample means
 #========================================================
-# Model Data
+# Hypothesis Testing
 #========================================================
 
 # Hypothesis Test: 
