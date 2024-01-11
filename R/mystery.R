@@ -71,8 +71,6 @@ gg_miss_var(df)
 # Transform Data
 #========================================================
 
-# TODO game_length : time separate min sec lubridate::ms
-
 library(tidyverse)
 library(GGally)
 
