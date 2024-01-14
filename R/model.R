@@ -104,3 +104,8 @@ testMystery = df_mean_ead[-trainIndex,]
 classification = knn(train=trainMystery[,4:6], test=testMystery[,4:6], cl=trainMystery$result, prob=TRUE, k=5)
 table(classification, testMystery$result)
 confusionMatrix(table(classification, testMystery$result), mode="everything")
+
+# Internal Leave One Out Cross-Validation: train mystery data set
+classification = knn.cv(trainMystery[,4:6], trainMystery$result, k=5)
+table(classification, trainMystery$result)
+confusionMatrix(table(classification, trainMystery$result), mode="everything")
