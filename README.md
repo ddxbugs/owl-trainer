@@ -125,15 +125,15 @@ Instructions on how to run the analysis:
 
 <p>Correlation plot of match sampling distribution of the sample means elimination, assist, death by control_no, team with respect to result, n = 26</p>
 
-  <img src="image/ggpairs_mean_ead.png" width=400px>
+  <img src="image/ggpairs_mean_ead.png" width=480px>
   
 <p>Correlation plot of match sampling distribution of the sample means damage, heal, mitigation by control_no, team with respect to result, n = 26</p>
   
-  <img src="image/ggpairs_mean_dhm.png" width=400px>
+  <img src="image/ggpairs_mean_dhm.png" width=480px>
 
 <p>70/30 train test split using KNN to classify and predict match results, n = 14</p>
 
-  <img src="image/confusion_matrix.png" width=400px>
+  <img src="image/confusion_matrix.png" width=240px>
 
 
 - **Interpretation**: Discuss the implications or significance of the findings.
