@@ -56,14 +56,6 @@ sum(is.na(df$final_score))
 which(is.na(df$final_score))
 df[191:210,]
 
-# Find missing NA mitigation values
-sum(is.na(df$mitigation))
-which(is.na(df$mitigation))
-df[175,]
-# Replace missing NA mitigation value with new int value
-df[175, "mitigation"] <- as.integer(1)
-df[175,]
-
 # Check missing NA values
 gg_miss_var(df)
 
