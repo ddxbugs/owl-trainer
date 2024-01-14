@@ -131,7 +131,7 @@ Instructions on how to run the analysis:
   
   <img src="image/ggpairs_mean_dhm.png" width=400px>
 
-<p>70/30 train test split using KNN to classify and predict match results, n = 44</p>
+<p>70/30 train test split using KNN to classify and predict match results, n = 14</p>
 
   <img src="image/confusion_matrix.png" width=400px>
 
