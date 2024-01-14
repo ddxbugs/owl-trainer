@@ -37,30 +37,24 @@ tail(df, n=5)
 
 # Print summary data frame
 summary(df)
+
 #========================================================
 # Tidy Data
 #========================================================
 
 library(naniar)
 
+# Check missing NA values
+gg_miss_var(df)
+
 # Count NA values
 sum(is.na(df))
 
-# Find missing NA final_score values
-sum(is.na(df$final_score))
+# Find missing NA values
 which(is.na(df$final_score))
-df[191:210,]
 
-# Find missing NA mitigation values
-sum(is.na(df$mitigation))
-which(is.na(df$mitigation))
-df[175,]
-# Replace missing NA mitigation value with new int value
-df[175, "mitigation"] <- as.integer(1)
-df[175,]
-
-# Check missing NA values
-gg_miss_var(df)
+# Omit final_score NA values 
+df <- na.omit(df)
 
 #========================================================
 # Transform Data
@@ -87,6 +81,12 @@ df <- df %>%
 df <- df %>%
   separate(game_length, sep=":", into=c("min","sec"),convert=TRUE, extra="drop")
 
+# Filter and summarize mean elim, assist, death by control_no, team, result
+df_mean_ead <- df %>%
+  filter(comp == "no") %>%
+  group_by(control_no, team, result) %>%
+  summarize(meanElim=mean(elimination), meanAsst=mean(assist), meanDeath=mean(death), .groups="drop")
+
 #========================================================
 # Model Data
 #========================================================
@@ -94,18 +94,13 @@ df <- df %>%
 library(caret)
 library(class)
 
-# Check data frame dimensions
-dim(df)
-
 # 70/30 train test split
-testSplit = nrow(df)*0.7
-trainIndex = sample(seq(1, nrow(df)), testSplit)
-train = df[trainIndex,]
-test = df[-trainIndex,]
+testSplit = nrow(df_mean_ead)*0.7
+trainIndex = sample(seq(1, nrow(df_mean_ead)), testSplit)
+trainMystery = df_mean_ead[trainIndex,]
+testMystery = df_mean_ead[-trainIndex,]
 
-dim(train)
-dim(test)
-
-# TODO group by control_no, team
-# TODO sum EAD, DHM 
-# TODO knn classification victory/defeat
+# KNN classification: Actual, Predicted Result=Victory/Defeat
+classification = knn(train=trainMystery[,4:6], test=testMystery[,4:6], cl=trainMystery$result, prob=TRUE, k=5)
+table(classification, testMystery$result)
+confusionMatrix(table(classification, testMystery$result), mode="everything")
