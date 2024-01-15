@@ -20,7 +20,7 @@
 
 ## Executive Summary
 
-- **Objectives**:
+- **Objectives**: Observational study measuring uncertainty to develop a probability model for simple random sampling and determine testing for a difference in sampling distributions.
 - **Key Findings**:
 - **Conclusions**:
 
