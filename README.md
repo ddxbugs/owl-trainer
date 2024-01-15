@@ -135,6 +135,9 @@ Instructions on how to run the analysis:
 
   <img src="image/confusion_matrix.png" width=240px>
 
+<p> Leave One Out Cross Validation to test the model for accuracy </p>
+
+  <img src="image/confusion_matrix_loocv.png" width=240px>
 
 - **Interpretation**: Discuss the implications or significance of the findings.
 
