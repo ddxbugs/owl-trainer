@@ -135,7 +135,7 @@ Instructions on how to run the analysis:
 
   <img src="image/confusion_matrix.png" width=240px>
 
-<p> Leave One Out Cross Validation to test the model for accuracy </p>
+<p> Leave One Out Cross Validation to test the training model for accuracy, n = 30</p>
 
   <img src="image/confusion_matrix_loocv.png" width=240px>
 
