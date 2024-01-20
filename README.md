@@ -40,8 +40,8 @@
   2. What is the relationship between result and score?
   3. What is the relationship between game_length and score?
 - **Hypothesis Testing**: Perform hypothesis testing.
-  1. $H_{0}$: Grand Master Elimination/Death Ratio = $\mu$; $H_{A}$: Grand Master Elimination/Death Ratio > $\mu$.
-  2. $H_{0}$: Grand Master Damage/Heal/Mitigation = $\mu$; $H_{A}$: Grand Master Damage/Heal/Mitigation > $\mu$.
+  1. $H_{0}$: Grand Master Elimination/Death Ratio = $\mu_{ead}$; $H_{A}$: Grand Master Elimination/Death Ratio > $\mu_{ead}$.
+  2. $H_{0}$: Grand Master Damage/Heal/Mitigation = $\mu_{dhm}$; $H_{A}$: Grand Master Damage/Heal/Mitigation > $\mu_{dhm}$.
   3. $H_{0}$: Difference in mean score $\mu_{victory}$ - $\mu_{defeat}$ = 0; $H_{A}$: Difference in mean score $\mu_{victory}$ - $\mu_{defeat}$ $\neq$ 0
 
 ## Installation and Setup
