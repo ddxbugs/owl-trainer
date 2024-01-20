@@ -137,7 +137,27 @@ df %>%
 #========================================================
 
 # Hypothesis Test: 
+
+# 1) State the Null and Alternative Hypothesis
+# 2) Draw and shade region and find critical value
+# 3) Find the test statistic
+# 4) Find the probability value, p-val
+# 5) Make a decision
+# 6) Conclusion
+
+# Confidence Intervals: 95%, alpha = 0.05
+
+# One-sample t-test elimination, assist, death (ead)
+elim <- t.test(df$elimination)
+asst <- t.test(df$assist)
+dead <- t.test(df$death)
+# One-sample t-test damage, heal, mitigation (dhm)
+dmg <- t.test(df$damage)
+heal <- t.test(df$heal)
+mit <- t.test(df$mitigation)
+
+# Two-sample t-test
+t.test(df_mean_ead$meanElim, df_mean_dhm$meanDmg)
 # Correlation test mean elimination and mean damage
 cor(df_mean_ead$meanElim, df_mean_dhm$meanDmg)
-# T-test 
-t.test(df_mean_ead$meanElim, df_mean_dhm$meanDmg)
+
