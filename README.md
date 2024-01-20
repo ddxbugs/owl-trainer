@@ -40,20 +40,15 @@
   2. What is the relationship between result and score?
   3. What is the relationship between game_length and score?
 - **Hypothesis Testing**: Perform hypothesis testing.
-  1. One-tailed test
-    
-    a. $H_{0}$: Grand Master Elimination/Assist/Death Ratio = $\mu_{ead}$
-    b. $H_{A}$: Grand Master Elimination/Assist/Death Ratio > $\mu_{ead}$
-    
-  2. One-tailed test
-    
-    a. $H_{0}$: Grand Master Damage/Heal/Mitigation = $\mu_{dhm}$
-    b. $H_{A}$: Grand Master Damage/Heal/Mitigation > $\mu_{dhm}$
-    
-  3. Two-tailed test
-    
-    a. $H_{0}$: Difference in mean score $\mu_{victory}$ - $\mu_{defeat}$ = 0
-    b. $H_{A}$: Difference in mean score $\mu_{victory}$ - $\mu_{defeat}$ $\neq$ 0
+  1. One-tailed test<br>
+    a. $H_{0}$: Grand Master Elimination/Assist/Death Ratio = $\mu_{ead}$<br>
+    b. $H_{A}$: Grand Master Elimination/Assist/Death Ratio > $\mu_{ead}$<br>
+  2. One-tailed test<br>
+    a. $H_{0}$: Grand Master Damage/Heal/Mitigation = $\mu_{dhm}$<br>
+    b. $H_{A}$: Grand Master Damage/Heal/Mitigation > $\mu_{dhm}$<br>
+  3. Two-tailed test<br>
+    a. $H_{0}$: Difference in mean score $\mu_{victory}$ - $\mu_{defeat}$ = 0<br>
+    b. $H_{A}$: Difference in mean score $\mu_{victory}$ - $\mu_{defeat}$ $\neq$ 0<br>
 
 ## Installation and Setup
 
