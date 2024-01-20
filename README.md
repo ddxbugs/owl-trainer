@@ -42,6 +42,7 @@
 - **Hypothesis Testing**: Perform hypothesis testing.
   1. $H_{0}$: Grand Master Elimination/Death Ratio = $\mu$; $H_{A}$: Grand Master Elimination/Death Ratio > $\mu$.
   2. $H_{0}$: Grand Master Damage/Heal/Mitigation = $\mu$; $H_{A}$: Grand Master Damage/Heal/Mitigation > $\mu$.
+  3. $H_{0}$: Difference in mean score $\mu_{victory}$ - $\mu_{defeat}$ = 0; $H_{A}$: Difference in mean score $\mu_{victory}$ - $\mu_{defeat}$ $\neq$ 0
 
 ## Installation and Setup
 
@@ -131,7 +132,7 @@ Instructions on how to run the analysis:
   
   <img src="image/ggpairs_mean_dhm.png" width=480px>
 
-<p>70/30 train test split using KNN to classify and predict match results, n = 14</p>
+<p>70/30 train test split using KNN (k=5) to classify and predict match results, n = 14</p>
 
   <img src="image/confusion_matrix.png" width=240px>
 
