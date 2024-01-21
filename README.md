@@ -21,7 +21,7 @@
 ## Executive Summary
 
 - **Objectives**: Observational study measuring uncertainty to develop a probability model for simple random sampling and determine testing for a difference in sampling distributions. Under the assumption of the null hypothesis, the difference of the sampling distribution of the sample means assumes the population variances are the same.
-- **Key Findings**: 
+- **Key Findings**: The unique dynamics of the Mystery Heroes game mode, where players are assigned random heroes, may introduce variability and potentially non-normality in the distributions of scores and outcomes. It is important to consider the impact of these dynamics. Generalizability of findings specific to Mystery Heroes may or may not be applied more broadly.
 - **Conclusions**:
 
 ## Introduction
@@ -127,7 +127,7 @@ Instructions on how to run the analysis:
 
 ## Results and Discussion
 
-- **Findings**: <br>The study observes the sample distribution is not normally distributed. Skewness and symmetry is important when discussing probability distributions because the majority of the data is located on the left side of the graph. Log transformation, a common method to handle right-skewed data to help normalize data and reduce the effect of outliers, is applied.
+- **Findings**: <br>The study observes the sampling distribution is not normally distributed. Skewness and symmetry is important when discussing probability distributions because the majority of the data is located on the left side of the graph. Log transformation, a common method to handle right-skewed data to help normalize data and reduce the effect of outliers, is applied.
 - **Visualizations**: Include plots or graphs with appropriate captions.
 
 <img src="image/hist_ead_dhm.png" width=480px><br>
