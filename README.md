@@ -21,7 +21,7 @@
 ## Executive Summary
 
 - **Objectives**: Observational study measuring uncertainty to develop a probability model for simple random sampling and determine testing for a difference in sampling distributions.
-- **Key Findings**:
+- **Key Findings**: The study assumes the population distribution is not normally distributed. Skewness and symmetry is important when discussing probability distributions because the majority of the data is located on the left side of the graph. Log transformation is a common method to handle right-skewed data to help normalize data and reduce the effect of outliers.
 - **Conclusions**:
 
 ## Introduction
