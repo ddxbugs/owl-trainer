@@ -40,13 +40,13 @@
   2. What is the relationship between result and score?
   3. What is the relationship between game_length and score?
 - **Hypothesis Testing**: Perform hypothesis testing.
-  1. One-tailed test: CI = 95%, $\alpha$ = 0.05<br>
+  1. One-sided test: CI = 95%, $\alpha$ = 0.05<br>
     $H_{0}$: Grand Master Elimination/Assist/Death Ratio = $\mu_{ead}$<br>
     $H_{A}$: Grand Master Elimination/Assist/Death Ratio > $\mu_{ead}$<br>
-  2. One-tailed test: CI = 95%, $\alpha$ = 0.05<br>
+  2. One-sided test: CI = 95%, $\alpha$ = 0.05<br>
     $H_{0}$: Grand Master Damage/Heal/Mitigation Ratio = $\mu_{dhm}$<br>
     $H_{A}$: Grand Master Damage/Heal/Mitigation Ratio > $\mu_{dhm}$<br>
-  3. Two-tailed test: CI = 95%, $\alpha$ = 0.05<br>
+  3. Two-sided test: CI = 95%, $\alpha_{/2}$ = 0.025<br>
     $H_{0}$: Difference in mean score $\mu_{victory}$ - $\mu_{defeat}$ = 0<br>
     $H_{A}$: Difference in mean score $\mu_{victory}$ - $\mu_{defeat}$ $\neq$ 0<br>
 
@@ -129,6 +129,10 @@ Instructions on how to run the analysis:
 
 - **Findings**: Summarize the key findings of the analysis.
 - **Visualizations**: Include plots or graphs with appropriate captions.
+
+<img src="image/hist_ead_dhm.png" width=480px><br>
+<img src="image/boxplot_ead_dhm.png" width=480px><br>
+<img src="image/scatter_plot_ead_dhm.png" width=480px><br>
 
 <p>Correlation plot of match sampling distribution of the sample means elimination, assist, death by group_id, team with respect to result, n = 26</p>
 
