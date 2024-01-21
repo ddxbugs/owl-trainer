@@ -127,7 +127,7 @@ Instructions on how to run the analysis:
 
 ## Results and Discussion
 
-- **Findings**: <br>The study observes the population distribution is not normally distributed. Skewness and symmetry is important when discussing probability distributions because the majority of the data is located on the left side of the graph. Log transformation, a common method to handle right-skewed data to help normalize data and reduce the effect of outliers, is applied.
+- **Findings**: <br>The study observes the sample distribution is not normally distributed. Skewness and symmetry is important when discussing probability distributions because the majority of the data is located on the left side of the graph. Log transformation, a common method to handle right-skewed data to help normalize data and reduce the effect of outliers, is applied.
 - **Visualizations**: Include plots or graphs with appropriate captions.
 
 <img src="image/hist_ead_dhm.png" width=480px><br>
