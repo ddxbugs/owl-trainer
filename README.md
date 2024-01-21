@@ -69,7 +69,7 @@ Detail the structure and explanation of the data:
 
 |Variable |Description  |Type |Format/Units |
 |---------|-------------|-----|-------------|
-|control_no|group match id|integer|1-inf+|
+|group_id|match group id|integer|1-inf+|
 |map_name |map name|character| |
 |comp |competitive mode|factor|yes/no|
 |result |match result|factor|victory/defeat|
@@ -130,11 +130,11 @@ Instructions on how to run the analysis:
 - **Findings**: Summarize the key findings of the analysis.
 - **Visualizations**: Include plots or graphs with appropriate captions.
 
-<p>Correlation plot of match sampling distribution of the sample means elimination, assist, death by control_no, team with respect to result, n = 26</p>
+<p>Correlation plot of match sampling distribution of the sample means elimination, assist, death by group_id, team with respect to result, n = 26</p>
 
   <img src="image/ggpairs_mean_ead.png" width=480px>
   
-<p>Correlation plot of match sampling distribution of the sample means damage, heal, mitigation by control_no, team with respect to result, n = 26</p>
+<p>Correlation plot of match sampling distribution of the sample means damage, heal, mitigation by group_id, team with respect to result, n = 26</p>
   
   <img src="image/ggpairs_mean_dhm.png" width=480px>
 
