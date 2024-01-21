@@ -1,4 +1,4 @@
-control_no,map_name,comp,result,final_score,game_mode,game_length,team,elimination,assist,death,damage,heal,mitigation
+group_id,map_name,comp,result,final_score,game_mode,game_length,team,elimination,assist,death,damage,heal,mitigation
 1,eichenwalde,no,victory,0-2,hybrid,10:00,A,10,11,3,3473,5102,2261
 1,eichenwalde,no,victory,0-2,hybrid,10:00,A,19,4,3,6996,31,2645
 1,eichenwalde,no,victory,0-2,hybrid,10:00,A,23,1,6,7869,409,957
