@@ -28,7 +28,7 @@ setwd("data/")
 #========================================================
 
 # Read CSV file
-df <- read.csv("mystery.csv")
+df <- read.csv("mystery.csv", header=TRUE)
 
 # Print first 5 rows
 head(df, n = 5)
@@ -152,36 +152,7 @@ plot(df$assist, df$mitigation, main="Scatterplot of Assist vs. Mitigation", xlab
 plot(df$death, df$damage, main="Scatterplot of Death vs. Damage", xlab="# of Deaths", ylab="Total Damage")
 plot(df$death, df$heal, main="Scatterplot of Death vs. Heal", xlab="# of Deaths", ylab="Total Heal")
 plot(df$death, df$mitigation, main="Scatterplot of Death vs. Mitigation", xlab="# of Deaths", ylab="Total Mitigation")
-#========================================================
-# Confidence Intervals: 95%, alpha = 0.05
-#========================================================
 
-# One-sample t-test elimination, assist, death (ead)
-elim <- t.test(df$elimination)
-asst <- t.test(df$assist)
-dead <- t.test(df$death)
-# One-sample t-test damage, heal, mitigation (dhm)
-dmg <- t.test(df$damage)
-heal <- t.test(df$heal)
-mit <- t.test(df$mitigation)
-
-# Two-sample t-test
-t.test(df_mean_ead$meanElim, df_mean_dhm$meanDmg)
-# Correlation test mean elimination and mean damage
-cor(df_mean_ead$meanElim, df_mean_dhm$meanDmg)
-
-#========================================================
-# Hypothesis Testing
-#========================================================
-
-# Hypothesis Test: 
-
-# 1) State the Null and Alternative Hypothesis
-# 2) Draw and shade region and find critical value
-# 3) Find the test statistic
-# 4) Find the probability value, p-val
-# 5) Make a decision
-# 6) Conclusion
 
 
 
