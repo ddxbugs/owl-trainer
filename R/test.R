@@ -70,44 +70,68 @@ df <- df %>%
 
 # Separate and factor game_length as integer into min, sec
 df <- df %>%
-  separate(game_length, sep=":", into=c("min","sec"),convert=TRUE, extra="drop")
+  separate(game_length, sep=":", into=c("min","sec"), convert=TRUE, extra="drop")
+
+# Mutate data frame to add sumEAD and sumDHM columns, Note: negative -death penalty score
+df <- df %>%
+  rowwise() %>%
+  mutate(sumEAD = sum(c(elimination,assist,-death)), sumDHM=sum(c(damage,heal,mitigation)))
 
 # Filter ranked and group by match result victory
 df_group_victory <- df %>%
-  filter (comp == "no", result == "victory")
+  filter(comp == "no", result == "victory")
 
 # Filter ranked and group by match result defeat
 df_group_defeat <- df %>%
-  filter (comp == "no", result == "defeat")
+  filter(comp == "no", result == "defeat")
+
 #========================================================
-# Model Data
+# Descriptive Statistics
 #========================================================
 
-# Sample size n
-n1 <- 50
-n2 <- 50
+mean(df$sumDHM)
+mean(df_group_victory$sumDHM)
+mean(df_group_defeat$sumDHM)
+sd(df$sumDHM)
+sd(df_group_victory$sumDHM)
+sd(df_group_victory$sumDHM)
 
-# Perform statistical analysis on group victory
-population1 <- sample(df_group_victory$damage, 1000)
-mean(population1)
-sd(population1)
-hist(population1)
+par(mfrow=c(3,1))
+hist(df$sumDHM, breaks=30, main=paste("Dist. of sums damage, heal & mitigation, n=", nrow(df)), xlab="D.H.M.")
+hist(df_group_victory$sumDHM, breaks=30, main=paste("Dist. of sums damage, heal & mitigation (victory), n=", nrow(df_group_victory)),xlab="D.H.M.")
+hist(df_group_defeat$sumDHM, breaks=30, main=paste("Dist. of sums damage, heal & mitigation (defeat), n=", nrow(df_group_defeat)),xlab="D.H.M.")
 
-# Perform statistical analysis on group defeat
-population2 <- sample(df_group_defeat$damage, 1000)
-mean(population2)
-sd(population2)
-hist(population2)
+par(mfrow=c(1,3))
+boxplot(df$sumDHM, main=paste("Boxplot of DHM, n =", nrow(df)), xlab="All", ylab="D.H.M.")
+boxplot(df_group_victory$sumDHM, main=paste("Boxplot of DHM, n =", nrow(df_group_victory)), xlab="Victory", ylab="D.H.M.")
+boxplot(df_group_defeat$sumDHM, main=paste("Boxplot of DHM, n =", nrow(df_group_defeat)), xlab="Defeat", ylab="D.H.M.")
 
-# # Simulations in experiment 
-simulations <- 1000
+#========================================================
+# Statistical Sampling
+#========================================================
 
-# Create xbar vectors for n simulations
+# Sample size n = 10
+n1 <- 10
+n2 <- 10
+
+# Simulations in experiment 
+simulations <- 10000
+
+# Create x bar vectors of size n simulations
 xbar_holder1 = numeric(simulations)
 xbar_holder2 = numeric(simulations)
 diffOfXbars = numeric(simulations)
 
 # Run the simulation
+for (i in simulations) {
+  sample1 = sample(df_group_victory$sumDHM, n1)
+  sample2 = sample(df_group_defeat$sumDHM, n2)
+  xbar1 = mean(sample1)
+  xbar2 = mean(sample2)
+  xbar_holder1[i] = xbar1
+  xbar_holder2[i] = xbar2
+  diffOfXbars[i] = xbar1 - xbar2
+}
 
 #========================================================
 # Confidence Intervals: 95%, alpha = 0.05
