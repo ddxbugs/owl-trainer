@@ -3,7 +3,7 @@
 # Script Name: test.R
 # Author: ddxbugs
 # Date: 2024-01-21
-# Last Modified: 2024-01-21
+# Last Modified: 2024-02-01
 # Version: 1.0.0-alpha.1+001
 #========================================================
 # Description: This script performs statistical analysis, 
@@ -134,6 +134,37 @@ for (i in simulations) {
 }
 
 #========================================================
+# Permutation test
+#========================================================
+
+samplesize = 10
+
+number_of_permutations = 10000;
+
+xbarholder = c();
+
+# the observed difference in sample means observed
+observed_diff = mean(subset(df, result == "victory")$sumDHM) - mean(subset(df, result == "defeat")$sumDHM);
+
+counter = 0;
+
+# this loop runs all the permutations and generates and stores the difference of sample means for each permutation
+for(i in 1:number_of_permutations) {
+  scramble = sample(df$sumDHM, samplesize);
+  one = scramble[1:(samplesize/2)];
+  two = scramble[(samplesize/2+1):samplesize];
+  diff = mean(one) - mean(two);
+  xbarholder[i] = diff;
+  
+  if (abs(diff) > abs(observed_diff))
+    counter = counter + 1
+}
+
+hist(xbarholder);
+pvalue = counter /number_of_permutations;
+# the pvalue is a percentage of the differences in sample means that were generated under the assumption of equal means that exceed what we observed
+pvalue
+#========================================================
 # Confidence Intervals: 95%, alpha = 0.05
 #========================================================
 
@@ -155,10 +186,6 @@ cor(df_mean_ead$meanElim, df_mean_dhm$meanDmg)
 # Hypothesis Testing
 #========================================================
 
-# Hypothesis Test: 
-
-# 1) State the Null and Alternative Hypothesis
-# 2) Draw and shade region and find critical value
 #' Credit: Volodymyr Orlov
 #' modified by MSDS SMU
 #' https://github.com/VolodymyrOrlov/MSDS6371/blob/master/shade.r
@@ -211,8 +238,3 @@ shade <- function(df, alpha, h0 = 0, sides='both', t_calc=NULL) {
 }
 #The above defines the function shade. To use it, you must call it. More examples are in the comments above.
 shade(49, 0.05, 0, t_calc=1.1)
-
-# 3) Find the test statistic
-# 4) Find the probability value, p-val
-# 5) Make a decision
-# 6) Conclusion
