@@ -3,15 +3,15 @@
 # Script Name: mystery.R
 # Author: ddxbugs
 # Date: 2023-12-26
-# Last Modified: 2024-01-10
+# Last Modified: 2024-02-01
 # Version: 1.0.0-alpha.1+001
 #========================================================
 # Description:
-# This script performs [brief description of what the script does, 
-# e.g., data cleaning, data visualization, statistical analysis, etc.]
+# This script performs data cleaning, data transformation, and
+# statistical analysis.
 #========================================================
 # Usage:
-# [Instructions on how to use this script, if necessary]
+# Install the necessary packages to run this script
 #========================================================
 # Notes:
 # [Any additional notes, warnings, dependencies, or other relevant information]
@@ -153,6 +153,8 @@ plot(df$death, df$damage, main="Scatterplot of Death vs. Damage", xlab="# of Dea
 plot(df$death, df$heal, main="Scatterplot of Death vs. Heal", xlab="# of Deaths", ylab="Total Heal")
 plot(df$death, df$mitigation, main="Scatterplot of Death vs. Mitigation", xlab="# of Deaths", ylab="Total Mitigation")
 
-
+#========================================================
+# 
+#========================================================
 
 
